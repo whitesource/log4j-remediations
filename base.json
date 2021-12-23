@@ -1,0 +1,10 @@
+{
+  "groupName": null,
+  "schedule": [],
+  "dependencyDashboardApproval": false,
+  "commitMessageSuffix": "[SECURITY]",
+  "branchTopic": "{{{datasource}}}-{{{depName}}}-vulnerability",
+  "prCreation": "immediate",
+  "prBodyNotes": ["This PR upgrades `{{depName}}` to avoid a critical vulnerability in `log4j`. For details about this problem, read [here](https://www.whitesourcesoftware.com/resources/blog?search=log4j)."],
+  "isVulnerabilityAlert": true
+}
