@@ -5,10 +5,40 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "ai.eto:rikai_2.12"
+      ],
+      "matchCurrentVersion": "[0.0.10,0.0.18)",
+      "allowedVersions": "0.0.18"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "ai.eto:rikai_2.13"
+      ],
+      "matchCurrentVersion": "[0.0.14,0.0.18)",
+      "allowedVersions": "0.0.18"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "be.personify.iam:personify-api"
       ],
       "matchCurrentVersion": "[1.0.0.RELEASE,1.3.1.RELEASE)",
       "allowedVersions": "1.3.1.RELEASE"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "be.personify.iam:personify-frontend"
+      ],
+      "matchCurrentVersion": "[1.0.1.RELEASE,1.2.8.RELEASE)",
+      "allowedVersions": "1.2.8.RELEASE"
     },
     {
       "extends": [
@@ -55,6 +85,16 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "ca.nexapp:nexapp-aws-lambda"
+      ],
+      "matchCurrentVersion": "[0.0.1-R2,2.0.1)",
+      "allowedVersions": "2.0.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "cloud.localstack:localstack-utils"
       ],
       "matchCurrentVersion": "[0.2.11,0.2.19)",
@@ -67,8 +107,18 @@
       "matchPackageNames": [
         "cn.hutool:hutool-log"
       ],
-      "matchCurrentVersion": "[4.1.15,5.7.18)",
-      "allowedVersions": "5.7.18"
+      "matchCurrentVersion": "[4.1.15,5.7.19)",
+      "allowedVersions": "5.7.19"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "cn.hyperchain:litesdk"
+      ],
+      "matchCurrentVersion": "[1.0.8,1.1.1)",
+      "allowedVersions": "1.1.1"
     },
     {
       "extends": [
@@ -97,8 +147,8 @@
       "matchPackageNames": [
         "co.elastic.logging:log4j2-ecs-layout"
       ],
-      "matchCurrentVersion": "[0.1.0,1.3.0)",
-      "allowedVersions": "1.3.0"
+      "matchCurrentVersion": "[0.1.0,1.3.2)",
+      "allowedVersions": "1.3.2"
     },
     {
       "extends": [
@@ -107,8 +157,18 @@
       "matchPackageNames": [
         "co.elastic.support:diagnostics"
       ],
-      "matchCurrentVersion": "[8.2.0,8.2.5)",
-      "allowedVersions": "8.2.5"
+      "matchCurrentVersion": "[8.2.0,8.2.6)",
+      "allowedVersions": "8.2.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "co.tamara:java-sdk"
+      ],
+      "matchCurrentVersion": "[1.0.4,1.1.5)",
+      "allowedVersions": "1.1.5"
     },
     {
       "extends": [
@@ -119,6 +179,56 @@
       ],
       "matchCurrentVersion": "[1.0.1,1.0.7)",
       "allowedVersions": "1.0.7"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.alipay.sofa:jraft-example"
+      ],
+      "matchCurrentVersion": "[1.2.6,1.3.9.fix-log4j2)",
+      "allowedVersions": "1.3.9.fix-log4j2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.alipay.sofa:jraft-test"
+      ],
+      "matchCurrentVersion": "[1.2.6,1.3.9.fix-log4j2)",
+      "allowedVersions": "1.3.9.fix-log4j2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.aliyun.mq:mq-http-sdk"
+      ],
+      "matchCurrentVersion": "[1.0.2,1.0.3.1)",
+      "allowedVersions": "1.0.3.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.aliyun.openservices:aliyun-log-log4j2-appender"
+      ],
+      "matchCurrentVersion": "[0.1.11,0.1.13)",
+      "allowedVersions": "0.1.13"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.aliyun.schedulerx:schedulerx2-worker"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.3.2)",
+      "allowedVersions": "1.3.2"
     },
     {
       "extends": [
@@ -157,8 +267,8 @@
       "matchPackageNames": [
         "com.amazonaws:aws-lambda-java-log4j2"
       ],
-      "matchCurrentVersion": "[1.1.1,1.5.0)",
-      "allowedVersions": "1.5.0"
+      "matchCurrentVersion": "[1.1.1,1.5.1)",
+      "allowedVersions": "1.5.1"
     },
     {
       "extends": [
@@ -167,8 +277,48 @@
       "matchPackageNames": [
         "com.anaptecs.jeaf.x-fun:jeaf-x-fun-impl"
       ],
-      "matchCurrentVersion": "[1.5.30,1.6.9)",
-      "allowedVersions": "1.6.9"
+      "matchCurrentVersion": "[1.5.30,1.6.11)",
+      "allowedVersions": "1.6.11"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.apigee.edge.config:apigee-config-maven-plugin"
+      ],
+      "matchCurrentVersion": "[1.5.0,1.5.2)",
+      "allowedVersions": "1.5.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.apigee.edge.config:apigee-config-maven-plugin"
+      ],
+      "matchCurrentVersion": "[2.2.0,2.2.2)",
+      "allowedVersions": "2.2.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.apigee.smartdocs.config:apigee-smartdocs-maven-plugin"
+      ],
+      "matchCurrentVersion": "[1.1.0,1.1.2)",
+      "allowedVersions": "1.1.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.apigee.smartdocs.config:apigee-smartdocs-maven-plugin"
+      ],
+      "matchCurrentVersion": "[2.2.0,2.2.2)",
+      "allowedVersions": "2.2.2"
     },
     {
       "extends": [
@@ -177,8 +327,8 @@
       "matchPackageNames": [
         "com.approvaltests:approvaltests-util-tests"
       ],
-      "matchCurrentVersion": "[12.1.0,12.4.1)",
-      "allowedVersions": "12.4.1"
+      "matchCurrentVersion": "[12.1.0,13.0.0)",
+      "allowedVersions": "13.0.0"
     },
     {
       "extends": [
@@ -197,8 +347,8 @@
       "matchPackageNames": [
         "com.audienceproject:kinesis-writer_2.12"
       ],
-      "matchCurrentVersion": "[2.0.0,3.1.3)",
-      "allowedVersions": "3.1.3"
+      "matchCurrentVersion": "[2.0.0,3.2.0)",
+      "allowedVersions": "3.2.0"
     },
     {
       "extends": [
@@ -207,8 +357,8 @@
       "matchPackageNames": [
         "com.audienceproject:kinesis-writer_2.13"
       ],
-      "matchCurrentVersion": "[2.1.0,3.1.3)",
-      "allowedVersions": "3.1.3"
+      "matchCurrentVersion": "[2.1.0,3.2.0)",
+      "allowedVersions": "3.2.0"
     },
     {
       "extends": [
@@ -217,8 +367,8 @@
       "matchPackageNames": [
         "com.axibase:aggregation-log-filter-log4j2"
       ],
-      "matchCurrentVersion": "[1.0.7,3.2.0)",
-      "allowedVersions": "3.2.0"
+      "matchCurrentVersion": "[1.0.7,3.2.1)",
+      "allowedVersions": "3.2.1"
     },
     {
       "extends": [
@@ -247,8 +397,18 @@
       "matchPackageNames": [
         "com.baidu.hugegraph:hugegraph-common"
       ],
-      "matchCurrentVersion": "[1.5.2,2.0.0)",
-      "allowedVersions": "2.0.0"
+      "matchCurrentVersion": "[1.5.2,2.0.1)",
+      "allowedVersions": "2.0.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.baidu:jprotobuf-rpc-core"
+      ],
+      "matchCurrentVersion": "[3.5.15,4.1.9)",
+      "allowedVersions": "4.1.9"
     },
     {
       "extends": [
@@ -257,8 +417,8 @@
       "matchPackageNames": [
         "com.bernardomg.tabletop:dice"
       ],
-      "matchCurrentVersion": "[1.3.1,2.2.0)",
-      "allowedVersions": "2.2.0"
+      "matchCurrentVersion": "[1.3.1,2.2.1)",
+      "allowedVersions": "2.2.1"
     },
     {
       "extends": [
@@ -355,10 +515,40 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.capgemini.mrchecker:mrchecker-core-module"
+      ],
+      "matchCurrentVersion": "[4.12.1.1,5.7.0.4)",
+      "allowedVersions": "5.7.0.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.carrotsearch.console:launcher"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.0.6)",
+      "allowedVersions": "1.0.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.carrotsearch.console:testing"
+      ],
+      "matchCurrentVersion": "[1.0.3,1.0.6)",
+      "allowedVersions": "1.0.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.cedarsoftware:java-util"
       ],
-      "matchCurrentVersion": "[1.34.1,1.66.0)",
-      "allowedVersions": "1.66.0"
+      "matchCurrentVersion": "[1.34.1,1.67.0)",
+      "allowedVersions": "1.67.0"
     },
     {
       "extends": [
@@ -455,10 +645,20 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.enjin:blockchain-sdk"
+      ],
+      "matchCurrentVersion": "[2.0.0-alpha.1,2.0.0-alpha.5)",
+      "allowedVersions": "2.0.0-alpha.5"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.epam.jdi:jdi-light"
       ],
-      "matchCurrentVersion": "[1.0.11,1.3.22)",
-      "allowedVersions": "1.3.22"
+      "matchCurrentVersion": "[1.0.11,1.4.1)",
+      "allowedVersions": "1.4.1"
     },
     {
       "extends": [
@@ -477,8 +677,58 @@
       "matchPackageNames": [
         "com.fortanix:sdkms-jce-provider"
       ],
-      "matchCurrentVersion": "[3.25.1443,4.2.1527)",
-      "allowedVersions": "4.2.1527"
+      "matchCurrentVersion": "[3.25.1443,4.2.1528)",
+      "allowedVersions": "4.2.1528"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.free-now.sauron.plugins:dependency-checker"
+      ],
+      "matchCurrentVersion": "[0.0.32,0.0.45)",
+      "allowedVersions": "0.0.45"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.free-now.sauron.plugins:elasticsearch-output"
+      ],
+      "matchCurrentVersion": "[0.0.18,0.0.26)",
+      "allowedVersions": "0.0.26"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.ftpix:sherdog-parser"
+      ],
+      "matchCurrentVersion": "[2.10,2.14)",
+      "allowedVersions": "2.14"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.ftpix:sparknotation"
+      ],
+      "matchCurrentVersion": "[1.12,1.17)",
+      "allowedVersions": "1.17"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.ftpix:webwatcher"
+      ],
+      "matchCurrentVersion": "[1.0,1.3)",
+      "allowedVersions": "1.3"
     },
     {
       "extends": [
@@ -487,8 +737,8 @@
       "matchPackageNames": [
         "com.gantzgulch.tools:gantzgulch-logging-log4j2"
       ],
-      "matchCurrentVersion": "[1.0.22,1.0.25)",
-      "allowedVersions": "1.0.25"
+      "matchCurrentVersion": "[1.0.22,1.0.26)",
+      "allowedVersions": "1.0.26"
     },
     {
       "extends": [
@@ -507,8 +757,8 @@
       "matchPackageNames": [
         "com.gitee.zodiacstack:zodiac-autoconfigure"
       ],
-      "matchCurrentVersion": "[1.2.2,1.2.3)",
-      "allowedVersions": "1.2.3"
+      "matchCurrentVersion": "[1.2.10,1.3.1)",
+      "allowedVersions": "1.3.1"
     },
     {
       "extends": [
@@ -517,8 +767,8 @@
       "matchPackageNames": [
         "com.gitee.zodiacstack:zodiac-commons"
       ],
-      "matchCurrentVersion": "[1.2.1,1.2.3)",
-      "allowedVersions": "1.2.3"
+      "matchCurrentVersion": "[1.2.1,1.3.1)",
+      "allowedVersions": "1.3.1"
     },
     {
       "extends": [
@@ -527,8 +777,8 @@
       "matchPackageNames": [
         "com.gitee.zodiacstack:zodiac-core"
       ],
-      "matchCurrentVersion": "[1.2.1,1.2.3)",
-      "allowedVersions": "1.2.3"
+      "matchCurrentVersion": "[1.2.1,1.3.1)",
+      "allowedVersions": "1.3.1"
     },
     {
       "extends": [
@@ -537,8 +787,8 @@
       "matchPackageNames": [
         "com.gitee.zodiacstack:zodiac-monitor"
       ],
-      "matchCurrentVersion": "[1.2.2,1.2.3)",
-      "allowedVersions": "1.2.3"
+      "matchCurrentVersion": "[1.2.10,1.3.1)",
+      "allowedVersions": "1.3.1"
     },
     {
       "extends": [
@@ -547,8 +797,8 @@
       "matchPackageNames": [
         "com.gitee.zodiacstack:zodiac-plugin"
       ],
-      "matchCurrentVersion": "[1.2.2,1.2.3)",
-      "allowedVersions": "1.2.3"
+      "matchCurrentVersion": "[1.2.10,1.3.1)",
+      "allowedVersions": "1.3.1"
     },
     {
       "extends": [
@@ -557,8 +807,8 @@
       "matchPackageNames": [
         "com.gitee.zodiacstack:zodiac-rabbit"
       ],
-      "matchCurrentVersion": "[1.2.2,1.2.3)",
-      "allowedVersions": "1.2.3"
+      "matchCurrentVersion": "[1.2.10,1.3.1)",
+      "allowedVersions": "1.3.1"
     },
     {
       "extends": [
@@ -567,8 +817,28 @@
       "matchPackageNames": [
         "com.gitee.zodiacstack:zodiac-tool-test"
       ],
-      "matchCurrentVersion": "[1.2.2,1.2.3)",
-      "allowedVersions": "1.2.3"
+      "matchCurrentVersion": "[1.2.10,1.3.1)",
+      "allowedVersions": "1.3.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.github.angleshq:angles-java-core"
+      ],
+      "matchCurrentVersion": "[1.0.16,1.0.35)",
+      "allowedVersions": "1.0.35"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.github.backtrace-labs.backtrace-log4j2:backtrace-log4j2"
+      ],
+      "matchCurrentVersion": "[0.9.0,0.9.1)",
+      "allowedVersions": "0.9.1"
     },
     {
       "extends": [
@@ -577,8 +847,8 @@
       "matchPackageNames": [
         "com.github.broadinstitute:picard"
       ],
-      "matchCurrentVersion": "[2.26.8,2.26.9)",
-      "allowedVersions": "2.26.9"
+      "matchCurrentVersion": "[2.26.8,2.26.10)",
+      "allowedVersions": "2.26.10"
     },
     {
       "extends": [
@@ -595,10 +865,60 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.github.chameleontartu:amazon-mws-feeds-maven"
+      ],
+      "matchCurrentVersion": "[1.2.0,1.5.0)",
+      "allowedVersions": "1.5.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.github.dekobon:log4j2-bunyan-layout"
       ],
-      "matchCurrentVersion": "[1.0.0,1.0.5)",
-      "allowedVersions": "1.0.5"
+      "matchCurrentVersion": "[1.0.0,1.0.6)",
+      "allowedVersions": "1.0.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.github.edwgiz:maven-shade-plugin.log4j2-cachefile-transformer"
+      ],
+      "matchCurrentVersion": "[2.13.0,2.15.0)",
+      "allowedVersions": "2.15.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.github.frtu.logs:logger-async"
+      ],
+      "matchCurrentVersion": "[1.1.1,1.1.4)",
+      "allowedVersions": "1.1.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.github.icecooly:FastHttpClient"
+      ],
+      "matchCurrentVersion": "[1.5,1.9)",
+      "allowedVersions": "1.9"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.github.jorge2m:testmaker-core"
+      ],
+      "matchCurrentVersion": "[1.0.0,2.0.8)",
+      "allowedVersions": "2.0.8"
     },
     {
       "extends": [
@@ -625,10 +945,20 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.github.mlangc:zio-interop-log4j2_2.13"
+      ],
+      "matchCurrentVersion": "[0.1.0,1.0.1)",
+      "allowedVersions": "1.0.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.github.mmarquee:ui-automation"
       ],
-      "matchCurrentVersion": "[0.5.1,0.6.0)",
-      "allowedVersions": "0.6.0"
+      "matchCurrentVersion": "[0.5.1,0.7.0)",
+      "allowedVersions": "0.7.0"
     },
     {
       "extends": [
@@ -727,8 +1057,38 @@
       "matchPackageNames": [
         "com.github.timmy80:jconnect"
       ],
-      "matchCurrentVersion": "[1.0.0,1.3.3)",
-      "allowedVersions": "1.3.3"
+      "matchCurrentVersion": "[1.0.0,1.3.4)",
+      "allowedVersions": "1.3.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.github.transbankdevelopers:transbank-sdk-pos-java"
+      ],
+      "matchCurrentVersion": "[1.0.0,2.0.0)",
+      "allowedVersions": "2.0.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.github.wasiqb.coteafs:appium"
+      ],
+      "matchCurrentVersion": "[3.5.0,4.2.0)",
+      "allowedVersions": "4.2.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.github.wasiqb.coteafs:listeners"
+      ],
+      "matchCurrentVersion": "[3.0.0,3.3.0)",
+      "allowedVersions": "3.3.0"
     },
     {
       "extends": [
@@ -737,8 +1097,8 @@
       "matchPackageNames": [
         "com.github.wasiqb.coteafs:selenium"
       ],
-      "matchCurrentVersion": "[4.0.0,4.0.1)",
-      "allowedVersions": "4.0.1"
+      "matchCurrentVersion": "[4.0.0,4.1.1)",
+      "allowedVersions": "4.1.1"
     },
     {
       "extends": [
@@ -747,8 +1107,38 @@
       "matchPackageNames": [
         "com.github.yedp:ez-common"
       ],
-      "matchCurrentVersion": "[1.0.2-release,1.0.4-release)",
-      "allowedVersions": "1.0.4-release"
+      "matchCurrentVersion": "[1.0.2-release,1.0.5-release)",
+      "allowedVersions": "1.0.5-release"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.github.yujiaao:c-dbtools"
+      ],
+      "matchCurrentVersion": "[1.8.0.5,1.8.0.8)",
+      "allowedVersions": "1.8.0.8"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.github.yujiaao:c-tablegen-jdbc-demo"
+      ],
+      "matchCurrentVersion": "[1.8.0.5,1.8.0.8)",
+      "allowedVersions": "1.8.0.8"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.github.yujiaao:tablegen"
+      ],
+      "matchCurrentVersion": "[1.8.0.5,1.8.0.8)",
+      "allowedVersions": "1.8.0.8"
     },
     {
       "extends": [
@@ -785,6 +1175,16 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.google.cloud:google-cloud-spanner-hibernate-dialect"
+      ],
+      "matchCurrentVersion": "[1.5.0,1.5.2)",
+      "allowedVersions": "1.5.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.google.flogger:flogger-log4j2-backend"
       ],
       "matchCurrentVersion": "[0.5,0.7.4)",
@@ -807,8 +1207,8 @@
       "matchPackageNames": [
         "com.guardsquare:proguard-core"
       ],
-      "matchCurrentVersion": "[8.0.0,8.0.4)",
-      "allowedVersions": "8.0.4"
+      "matchCurrentVersion": "[8.0.0,8.0.5)",
+      "allowedVersions": "8.0.5"
     },
     {
       "extends": [
@@ -817,8 +1217,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-cdc"
       ],
-      "matchCurrentVersion": "[4.3,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.3,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -827,8 +1227,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-co-group"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -837,8 +1237,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-early-window-results"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -847,8 +1247,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-elastic"
       ],
-      "matchCurrentVersion": "[4.2,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.2,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -857,8 +1257,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-enrichment"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -867,8 +1267,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-event-journal"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -877,8 +1277,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-fault-tolerance"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -887,8 +1287,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-files"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -897,8 +1297,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-files-cloud"
       ],
-      "matchCurrentVersion": "[4.5,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.5,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -907,8 +1307,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-grpc"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -917,8 +1317,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-hello-world"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -927,8 +1327,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-imdg-connectors"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -937,8 +1337,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-jdbc"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -947,8 +1347,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-jms"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -957,8 +1357,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-job-management"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -967,8 +1367,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-kafka"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -977,8 +1377,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-pattern-matching"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -987,8 +1387,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-protobuf"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -997,8 +1397,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-python"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1007,8 +1407,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-return-results"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1017,8 +1417,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-rolling-aggregation"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1027,8 +1427,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-session-windows"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1037,8 +1437,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-sliding-windows"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1047,8 +1447,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-sockets"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1057,8 +1457,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-source-sink-builder"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1067,8 +1467,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-spring"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1077,8 +1477,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-spring-boot"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1087,8 +1487,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-tf-idf"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1097,8 +1497,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-trade-source"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1107,8 +1507,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet.examples:hazelcast-jet-examples-wordcount"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1187,8 +1587,18 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-cdc-postgres"
       ],
-      "matchCurrentVersion": "[4.2,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.2,4.5.3)",
+      "allowedVersions": "4.5.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-cdc-postgres"
+      ],
+      "matchCurrentVersion": "[5.0-BETA-1,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1227,8 +1637,28 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-elasticsearch-5"
       ],
-      "matchCurrentVersion": "[4.2,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.2,4.5.3)",
+      "allowedVersions": "4.5.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-elasticsearch-5"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-elasticsearch-6"
+      ],
+      "matchCurrentVersion": "[4.2,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1257,8 +1687,18 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-files-azure"
       ],
-      "matchCurrentVersion": "[4.4,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.4,4.5.3)",
+      "allowedVersions": "4.5.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-files-azure"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1267,8 +1707,18 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-files-gcs"
       ],
-      "matchCurrentVersion": "[4.4,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.4,4.5.3)",
+      "allowedVersions": "4.5.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-files-gcs"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1277,8 +1727,18 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-files-s3"
       ],
-      "matchCurrentVersion": "[4.4,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.4,4.5.3)",
+      "allowedVersions": "4.5.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-files-s3"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1287,8 +1747,18 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-grpc"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-grpc"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1317,8 +1787,18 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-hadoop-all"
       ],
-      "matchCurrentVersion": "[4.4,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.4,4.5.3)",
+      "allowedVersions": "4.5.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-hadoop-all"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1327,8 +1807,18 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-hadoop-core"
       ],
-      "matchCurrentVersion": "[4.4,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.4,4.5.3)",
+      "allowedVersions": "4.5.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-hadoop-core"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1357,8 +1847,18 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-kinesis"
       ],
-      "matchCurrentVersion": "[4.4,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.4,4.5.3)",
+      "allowedVersions": "4.5.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-kinesis"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1367,8 +1867,18 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-protobuf"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-protobuf"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1377,8 +1887,18 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-python"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-python"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1387,8 +1907,18 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-s3"
       ],
-      "matchCurrentVersion": "[4.1,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.1,4.5.3)",
+      "allowedVersions": "4.5.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast.jet:hazelcast-jet-s3"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1407,8 +1937,8 @@
       "matchPackageNames": [
         "com.hazelcast.jet:hazelcast-jet-sql"
       ],
-      "matchCurrentVersion": "[4.5,4.5.2)",
-      "allowedVersions": "4.5.2"
+      "matchCurrentVersion": "[4.5,4.5.3)",
+      "allowedVersions": "4.5.3"
     },
     {
       "extends": [
@@ -1455,9 +1985,49 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.hazelcast:hazelcast-3-connector-common"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast:hazelcast-3-connector-impl"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast:hazelcast-3-connector-interface"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.hazelcast:hazelcast-all"
       ],
-      "matchCurrentVersion": "[3.10.6,4.1.8)",
+      "matchCurrentVersion": "[3.10.6,4.0.5)",
+      "allowedVersions": "4.0.5"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast:hazelcast-all"
+      ],
+      "matchCurrentVersion": "[4.1,4.1.8)",
       "allowedVersions": "4.1.8"
     },
     {
@@ -1475,9 +2045,29 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.hazelcast:hazelcast-archunit-rules"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.hazelcast:hazelcast-build-utils"
       ],
-      "matchCurrentVersion": "[3.10,4.1.8)",
+      "matchCurrentVersion": "[3.10,4.0.5)",
+      "allowedVersions": "4.0.5"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast:hazelcast-build-utils"
+      ],
+      "matchCurrentVersion": "[4.1,4.1.8)",
       "allowedVersions": "4.1.8"
     },
     {
@@ -1489,6 +2079,16 @@
       ],
       "matchCurrentVersion": "[4.2,4.2.4)",
       "allowedVersions": "4.2.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hazelcast:hazelcast-build-utils"
+      ],
+      "matchCurrentVersion": "[5.0,5.0.2)",
+      "allowedVersions": "5.0.2"
     },
     {
       "extends": [
@@ -1615,9 +2215,29 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.heidelpay.payment:heidelpayJava"
+      ],
+      "matchCurrentVersion": "[1.10.0.0,1.11.2.4)",
+      "allowedVersions": "1.11.2.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.hortonworks.hive:hive-warehouse-connector_2.11"
       ],
-      "matchCurrentVersion": "[1.0.0.3.1.4.24-4,1.0.0.7.2.8.5-5)",
+      "matchCurrentVersion": "[1.0.0.3.1.4.24-4,1.0.0.7.2.7.11-4)",
+      "allowedVersions": "1.0.0.7.2.7.11-4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.hortonworks.hive:hive-warehouse-connector_2.11"
+      ],
+      "matchCurrentVersion": "[1.0.0.7.2.8.0-228,1.0.0.7.2.8.5-5)",
       "allowedVersions": "1.0.0.7.2.8.5-5"
     },
     {
@@ -1645,6 +2265,16 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.hortonworks.hive:hive-warehouse-connector_2.11"
+      ],
+      "matchCurrentVersion": "[1.0.0.7.2.12.0-291,1.0.0.7.2.12.2-5)",
+      "allowedVersions": "1.0.0.7.2.12.2-5"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.hpe.adm.octane.ciplugins:integrations-sdk"
       ],
       "matchCurrentVersion": "[1.0.0.0,2.7.2.6)",
@@ -1657,8 +2287,8 @@
       "matchPackageNames": [
         "com.huaweicloud:esdk-obs-java"
       ],
-      "matchCurrentVersion": "[3.0.3,3.21.11)",
-      "allowedVersions": "3.21.11"
+      "matchCurrentVersion": "[3.0.3,3.21.12)",
+      "allowedVersions": "3.21.12"
     },
     {
       "extends": [
@@ -1667,8 +2297,8 @@
       "matchPackageNames": [
         "com.huaweicloud:esdk-obs-java-bundle"
       ],
-      "matchCurrentVersion": "[3.21.4,3.21.11)",
-      "allowedVersions": "3.21.11"
+      "matchCurrentVersion": "[3.21.11,3.21.12)",
+      "allowedVersions": "3.21.12"
     },
     {
       "extends": [
@@ -1679,6 +2309,36 @@
       ],
       "matchCurrentVersion": "[1.2.20190605094304,4.0.20211221091042)",
       "allowedVersions": "4.0.20211221091042"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.incountry:incountry-java-client"
+      ],
+      "matchCurrentVersion": "[2.0.0,4.2.1)",
+      "allowedVersions": "4.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.intel.analytics.zoo:analytics-zoo-bigdl_0.13.0-spark_2.4.6"
+      ],
+      "matchCurrentVersion": "[0.11.0,0.11.1)",
+      "allowedVersions": "0.11.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.intel.analytics.zoo:analytics-zoo-bigdl_0.13.0-spark_3.0.0"
+      ],
+      "matchCurrentVersion": "[0.11.0,0.11.1)",
+      "allowedVersions": "0.11.1"
     },
     {
       "extends": [
@@ -1775,10 +2435,40 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.kuda.library:open-api-crypto-jdk8"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.0.3)",
+      "allowedVersions": "1.0.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.kumuluz.ee.logs:kumuluzee-logs-log4j2"
       ],
-      "matchCurrentVersion": "[1.2.0,1.4.5)",
-      "allowedVersions": "1.4.5"
+      "matchCurrentVersion": "[1.2.0,1.4.6)",
+      "allowedVersions": "1.4.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.lightbend.lagom:lagom-log4j2_2.12"
+      ],
+      "matchCurrentVersion": "[1.4.10,1.6.7)",
+      "allowedVersions": "1.6.7"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.lightbend.lagom:lagom-log4j2_2.13"
+      ],
+      "matchCurrentVersion": "[1.6.0,1.6.7)",
+      "allowedVersions": "1.6.7"
     },
     {
       "extends": [
@@ -1787,8 +2477,28 @@
       "matchPackageNames": [
         "com.lihaoyi:mill-scalalib-worker_2.13"
       ],
-      "matchCurrentVersion": "[0.9.11,0.10.0-M4-57-084a66)",
-      "allowedVersions": "0.10.0-M4-57-084a66"
+      "matchCurrentVersion": "[0.9.11,0.9.11-6-b6ebdb)",
+      "allowedVersions": "0.9.11-6-b6ebdb"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.liveperson.faas:functions-client"
+      ],
+      "matchCurrentVersion": "[1.1.0,1.1.7)",
+      "allowedVersions": "1.1.7"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.logfaces:lfsappenders"
+      ],
+      "matchCurrentVersion": "[4.6.0,5.1.0)",
+      "allowedVersions": "5.1.0"
     },
     {
       "extends": [
@@ -1815,6 +2525,36 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.mapcode:mapcode"
+      ],
+      "matchCurrentVersion": "[2.4.16,2.4.17)",
+      "allowedVersions": "2.4.17"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.maple86:jspon"
+      ],
+      "matchCurrentVersion": "[1.3.0,1.4.4)",
+      "allowedVersions": "1.4.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.microsoft.azure:azure-data-lake-store-sdk"
+      ],
+      "matchCurrentVersion": "[2.3.2,2.3.10)",
+      "allowedVersions": "2.3.10"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.microsoft.azure:azure-eventhubs-extensions"
       ],
       "matchCurrentVersion": "[3.1.1,3.3.2)",
@@ -1827,8 +2567,8 @@
       "matchPackageNames": [
         "com.moesif.filter:moesif-play-filter"
       ],
-      "matchCurrentVersion": "[1.10,1.11)",
-      "allowedVersions": "1.11"
+      "matchCurrentVersion": "[1.10,1.13.0)",
+      "allowedVersions": "1.13.0"
     },
     {
       "extends": [
@@ -1837,8 +2577,8 @@
       "matchPackageNames": [
         "com.moesif.servlet:moesif-servlet"
       ],
-      "matchCurrentVersion": "[1.6.13,1.6.15)",
-      "allowedVersions": "1.6.15"
+      "matchCurrentVersion": "[1.6.13,1.6.16)",
+      "allowedVersions": "1.6.16"
     },
     {
       "extends": [
@@ -1847,8 +2587,18 @@
       "matchPackageNames": [
         "com.moesif.springrequest:moesif-springrequest"
       ],
-      "matchCurrentVersion": "[1.0.12,1.0.13)",
-      "allowedVersions": "1.0.13"
+      "matchCurrentVersion": "[1.0.12,1.0.14)",
+      "allowedVersions": "1.0.14"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.muscula:muscula-log4j"
+      ],
+      "matchCurrentVersion": "[1.0.2,1.1.1)",
+      "allowedVersions": "1.1.1"
     },
     {
       "extends": [
@@ -1867,8 +2617,8 @@
       "matchPackageNames": [
         "com.netflix.spectator:spectator-ext-log4j2"
       ],
-      "matchCurrentVersion": "[0.101.0,1.0.11)",
-      "allowedVersions": "1.0.11"
+      "matchCurrentVersion": "[0.101.0,1.0.12)",
+      "allowedVersions": "1.0.12"
     },
     {
       "extends": [
@@ -1885,10 +2635,30 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.nimbusds:infinispan-cachestore-dynamodb"
+      ],
+      "matchCurrentVersion": "[2.3,4.1.8)",
+      "allowedVersions": "4.1.8"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.nimbusds:software-statement-verifier"
       ],
       "matchCurrentVersion": "[2.0,2.2.2)",
       "allowedVersions": "2.2.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.okworx.ilcd.validation:ilcd-validation"
+      ],
+      "matchCurrentVersion": "[2.2.0,2.3.0)",
+      "allowedVersions": "2.3.0"
     },
     {
       "extends": [
@@ -1907,8 +2677,48 @@
       "matchPackageNames": [
         "com.paypal.butterfly:butterfly-test"
       ],
-      "matchCurrentVersion": "[3.1.0,3.2.0)",
-      "allowedVersions": "3.2.0"
+      "matchCurrentVersion": "[3.1.0,3.2.2)",
+      "allowedVersions": "3.2.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.plumelog:plumelog-log4j2"
+      ],
+      "matchCurrentVersion": "[2.1,3.5.2)",
+      "allowedVersions": "3.5.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.rajivprab:cava"
+      ],
+      "matchCurrentVersion": "[2.0.11,3.0.1)",
+      "allowedVersions": "3.0.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.rajivprab:sava"
+      ],
+      "matchCurrentVersion": "[6.0.26,7.0.2)",
+      "allowedVersions": "7.0.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.randomnoun.build:java-to-graphviz"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.0.1)",
+      "allowedVersions": "1.0.1"
     },
     {
       "extends": [
@@ -1917,8 +2727,8 @@
       "matchPackageNames": [
         "com.rapid7:r7insight_java"
       ],
-      "matchCurrentVersion": "[1.1.40,3.0.14)",
-      "allowedVersions": "3.0.14"
+      "matchCurrentVersion": "[1.1.40,3.0.15)",
+      "allowedVersions": "3.0.15"
     },
     {
       "extends": [
@@ -1935,10 +2745,30 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.sagframe:sagacity-sqltoy"
+      ],
+      "matchCurrentVersion": "[4.10.4,4.19.11)",
+      "allowedVersions": "4.19.11"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.sagframe:sagacity-sqltoy"
+      ],
+      "matchCurrentVersion": "[5.0.0,5.1.20)",
+      "allowedVersions": "5.1.20"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.sap.hcp.cf.logging:cf-java-logging-support-jersey"
       ],
-      "matchCurrentVersion": "[2.2.3,3.5.5)",
-      "allowedVersions": "3.5.5"
+      "matchCurrentVersion": "[2.2.3,3.5.6)",
+      "allowedVersions": "3.5.6"
     },
     {
       "extends": [
@@ -1947,8 +2777,8 @@
       "matchPackageNames": [
         "com.sap.hcp.cf.logging:cf-java-logging-support-log4j2"
       ],
-      "matchCurrentVersion": "[2.2.3,3.5.5)",
-      "allowedVersions": "3.5.5"
+      "matchCurrentVersion": "[2.2.3,3.5.6)",
+      "allowedVersions": "3.5.6"
     },
     {
       "extends": [
@@ -1957,8 +2787,8 @@
       "matchPackageNames": [
         "com.sap.hcp.cf.logging:logging-sample-app"
       ],
-      "matchCurrentVersion": "[2.2.3,3.5.4)",
-      "allowedVersions": "3.5.4"
+      "matchCurrentVersion": "[2.2.3,3.5.6)",
+      "allowedVersions": "3.5.6"
     },
     {
       "extends": [
@@ -1967,8 +2797,28 @@
       "matchPackageNames": [
         "com.sap.oss.phosphor:fosstars-rating-core"
       ],
-      "matchCurrentVersion": "[0.12.0,1.6.0)",
-      "allowedVersions": "1.6.0"
+      "matchCurrentVersion": "[0.12.0,1.7.0)",
+      "allowedVersions": "1.7.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.scalableminds:webknossos-wrap_2.12"
+      ],
+      "matchCurrentVersion": "[1.1.10,1.1.13)",
+      "allowedVersions": "1.1.13"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.segmeno:kodo"
+      ],
+      "matchCurrentVersion": "[1.0.2-RELEASE,1.2.8-RELEASE)",
+      "allowedVersions": "1.2.8-RELEASE"
     },
     {
       "extends": [
@@ -1985,10 +2835,30 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.simplaex:vertx-sugar"
+      ],
+      "matchCurrentVersion": "[2020.01.10,2021.12.14)",
+      "allowedVersions": "2021.12.14"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.snowflake:snowflake-kafka-connector"
       ],
       "matchCurrentVersion": "[1.2.0,1.6.3)",
       "allowedVersions": "1.6.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.solace.cloud.core:solace-services-info"
+      ],
+      "matchCurrentVersion": "[0.3.0,0.4.2)",
+      "allowedVersions": "0.4.2"
     },
     {
       "extends": [
@@ -2017,8 +2887,8 @@
       "matchPackageNames": [
         "com.staffbase:plugins-sdk-java"
       ],
-      "matchCurrentVersion": "[1.1.2,1.2.3)",
-      "allowedVersions": "1.2.3"
+      "matchCurrentVersion": "[1.1.2,1.2.4)",
+      "allowedVersions": "1.2.4"
     },
     {
       "extends": [
@@ -2037,8 +2907,28 @@
       "matchPackageNames": [
         "com.sumologic.plugins.log4j:sumologic-log4j2-appender"
       ],
-      "matchCurrentVersion": "[1.10,1.12)",
-      "allowedVersions": "1.12"
+      "matchCurrentVersion": "[1.10,1.13)",
+      "allowedVersions": "1.13"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.targomo:java-client"
+      ],
+      "matchCurrentVersion": "[0.1.14,0.9.0)",
+      "allowedVersions": "0.9.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.tencentcloudapi.cls:tencentcloud-cls-log4j2-appender"
+      ],
+      "matchCurrentVersion": "[1.0.1,1.0.2)",
+      "allowedVersions": "1.0.2"
     },
     {
       "extends": [
@@ -2055,10 +2945,50 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.theartos:artos"
+      ],
+      "matchCurrentVersion": "[0.0.1,0.0.16)",
+      "allowedVersions": "0.0.16"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.therealvan:appender-log4j2"
       ],
-      "matchCurrentVersion": "[2.1.1,3.5.0)",
-      "allowedVersions": "3.5.0"
+      "matchCurrentVersion": "[2.1.1,3.6.0)",
+      "allowedVersions": "3.6.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.thetransactioncompany:jsonrpc2-access-filter"
+      ],
+      "matchCurrentVersion": "[1.7,1.7.1)",
+      "allowedVersions": "1.7.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.truthbean:log4j2-boot"
+      ],
+      "matchCurrentVersion": "[0.5.0-RELEASE,0.5.3-RELEASE)",
+      "allowedVersions": "0.5.3-RELEASE"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.truthbean:logger-to-log4j2"
+      ],
+      "matchCurrentVersion": "[0.5.0-RELEASE,0.5.3-RELEASE)",
+      "allowedVersions": "0.5.3-RELEASE"
     },
     {
       "extends": [
@@ -2085,6 +3015,36 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.webank:weid-build-tools"
+      ],
+      "matchCurrentVersion": "[1.0.12,1.0.28)",
+      "allowedVersions": "1.0.28"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.webank:weid-java-sdk"
+      ],
+      "matchCurrentVersion": "[1.3.0,1.8.3)",
+      "allowedVersions": "1.8.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.whaleal.icefrog:icefrog-log"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.1.6)",
+      "allowedVersions": "1.1.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.xceptance:neodymium-library"
       ],
       "matchCurrentVersion": "[3.0.0,4.1.3)",
@@ -2095,10 +3055,30 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "com.xenoamess:commonx"
+      ],
+      "matchCurrentVersion": "[0.10.10,0.13.1)",
+      "allowedVersions": "0.13.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "com.xenoamess:x8l"
       ],
       "matchCurrentVersion": "[0.52.0,2.3.8)",
       "allowedVersions": "2.3.8"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "com.xnx3.elasticsearch:elasticsearch"
+      ],
+      "matchCurrentVersion": "[1.1.3,1.1.4)",
+      "allowedVersions": "1.1.4"
     },
     {
       "extends": [
@@ -2117,8 +3097,18 @@
       "matchPackageNames": [
         "de.bwaldvogel:log4j-systemd-journal-appender"
       ],
-      "matchCurrentVersion": "[2.4.0,2.5.0)",
-      "allowedVersions": "2.5.0"
+      "matchCurrentVersion": "[2.4.0,2.5.1)",
+      "allowedVersions": "2.5.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "de.charite.compbio:jannovar-cli"
+      ],
+      "matchCurrentVersion": "[0.24,0.38)",
+      "allowedVersions": "0.38"
     },
     {
       "extends": [
@@ -2126,6 +3116,16 @@
       ],
       "matchPackageNames": [
         "de.charite.compbio:jannovar-core"
+      ],
+      "matchCurrentVersion": "[0.27,0.38)",
+      "allowedVersions": "0.38"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "de.charite.compbio:jannovar-filter"
       ],
       "matchCurrentVersion": "[0.27,0.38)",
       "allowedVersions": "0.38"
@@ -2146,6 +3146,26 @@
       ],
       "matchPackageNames": [
         "de.charite.compbio:jannovar-htsjdk"
+      ],
+      "matchCurrentVersion": "[0.27,0.38)",
+      "allowedVersions": "0.38"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "de.charite.compbio:jannovar-stats"
+      ],
+      "matchCurrentVersion": "[0.27,0.38)",
+      "allowedVersions": "0.38"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "de.charite.compbio:jannovar-vardbs"
       ],
       "matchCurrentVersion": "[0.27,0.38)",
       "allowedVersions": "0.38"
@@ -2219,6 +3239,16 @@
       ],
       "matchCurrentVersion": "[2.4,3.4.0)",
       "allowedVersions": "3.4.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "de.samply:converter.dktk.patient"
+      ],
+      "matchCurrentVersion": "[2.0.0,2.3.1)",
+      "allowedVersions": "2.3.1"
     },
     {
       "extends": [
@@ -2367,8 +3397,168 @@
       "matchPackageNames": [
         "de.viadee:viadeeProcessApplicationValidator"
       ],
-      "matchCurrentVersion": "[2.6.1,3.0.7)",
-      "allowedVersions": "3.0.7"
+      "matchCurrentVersion": "[2.6.1,3.0.8)",
+      "allowedVersions": "3.0.8"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "edu.harvard.eecs:jopt"
+      ],
+      "matchCurrentVersion": "[1.3.2,1.4.3)",
+      "allowedVersions": "1.4.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.binjr:binjr-core"
+      ],
+      "matchCurrentVersion": "[2.10.0,3.5.1)",
+      "allowedVersions": "3.5.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:java4eurostat"
+      ],
+      "matchCurrentVersion": "[1.16,1.38)",
+      "allowedVersions": "1.38"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-agent"
+      ],
+      "matchCurrentVersion": "[0.9.12,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-algo"
+      ],
+      "matchCurrentVersion": "[0.9.12,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-algo-base"
+      ],
+      "matchCurrentVersion": "[0.9.12,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-feature"
+      ],
+      "matchCurrentVersion": "[0.9.0,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-full"
+      ],
+      "matchCurrentVersion": "[0.9.0,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-geo-io"
+      ],
+      "matchCurrentVersion": "[0.9.1,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-geocoding"
+      ],
+      "matchCurrentVersion": "[0.9.12,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-geodiff"
+      ],
+      "matchCurrentVersion": "[0.9.1,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-gproc"
+      ],
+      "matchCurrentVersion": "[0.9.12,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-graph-algo"
+      ],
+      "matchCurrentVersion": "[0.9.12,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-graph-base"
+      ],
+      "matchCurrentVersion": "[0.9.12,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-grid"
+      ],
+      "matchCurrentVersion": "[0.9.1,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "eu.europa.ec.eurostat:jgiscotools-regionsimplify"
+      ],
+      "matchCurrentVersion": "[0.9.12,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -2377,8 +3567,8 @@
       "matchPackageNames": [
         "eu.locklogin:LockLogin-common"
       ],
-      "matchCurrentVersion": "[1.12.27,1.13.10)",
-      "allowedVersions": "1.13.10"
+      "matchCurrentVersion": "[1.12.27,1.13.14)",
+      "allowedVersions": "1.13.14"
     },
     {
       "extends": [
@@ -2405,10 +3595,60 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "gov.nasa.pds:validate"
+      ],
+      "matchCurrentVersion": "[2.1.2,2.1.4)",
+      "allowedVersions": "2.1.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "gradle.plugin.com.github.johnrengelman:shadow"
       ],
-      "matchCurrentVersion": "[7.1.0,7.1.1)",
-      "allowedVersions": "7.1.1"
+      "matchCurrentVersion": "[7.1.0,7.1.2)",
+      "allowedVersions": "7.1.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "group.rxcloud:capa-examples"
+      ],
+      "matchCurrentVersion": "[1.0.0-RELEASE,1.11.13.RELEASE)",
+      "allowedVersions": "1.11.13.RELEASE"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "group.rxcloud:capa-sdk-component"
+      ],
+      "matchCurrentVersion": "[1.0.7-beta-1,1.11.13.RELEASE)",
+      "allowedVersions": "1.11.13.RELEASE"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "group.rxcloud:capa-sdk-spi"
+      ],
+      "matchCurrentVersion": "[1.0.4.RELEASE,1.11.13.RELEASE)",
+      "allowedVersions": "1.11.13.RELEASE"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "group.rxcloud:capa-sdk-spi-demo"
+      ],
+      "matchCurrentVersion": "[1.0.7-beta-1,1.11.13.RELEASE)",
+      "allowedVersions": "1.11.13.RELEASE"
     },
     {
       "extends": [
@@ -2445,6 +3685,36 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "io.apigee.build-tools.enterprise4g:apigee-edge-maven-plugin"
+      ],
+      "matchCurrentVersion": "[1.3.0,1.3.2)",
+      "allowedVersions": "1.3.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.apigee.build-tools.enterprise4g:apigee-edge-maven-plugin"
+      ],
+      "matchCurrentVersion": "[2.2.0,2.2.2)",
+      "allowedVersions": "2.2.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.autonomx:autonomx-core"
+      ],
+      "matchCurrentVersion": "[1.0.9,1.1.13)",
+      "allowedVersions": "1.1.13"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "io.axoniq:axonserver-connector-java"
       ],
       "matchCurrentVersion": "[4.4-M1,4.5.4)",
@@ -2457,8 +3727,8 @@
       "matchPackageNames": [
         "io.axway.alf:alf-log4j2"
       ],
-      "matchCurrentVersion": "[0.10.0,0.15.0)",
-      "allowedVersions": "0.15.0"
+      "matchCurrentVersion": "[0.10.0,0.16.0)",
+      "allowedVersions": "0.16.0"
     },
     {
       "extends": [
@@ -2479,6 +3749,26 @@
       ],
       "matchCurrentVersion": "[1.0.1,1.0.8)",
       "allowedVersions": "1.0.8"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.datarouter:datarouter-logging"
+      ],
+      "matchCurrentVersion": "[0.0.11,0.0.98)",
+      "allowedVersions": "0.0.98"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.datarouter:datarouter-web"
+      ],
+      "matchCurrentVersion": "[0.0.26,0.0.98)",
+      "allowedVersions": "0.0.98"
     },
     {
       "extends": [
@@ -2535,6 +3825,16 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "io.github.ArtyomPanfutov:loan-amortization-calculator"
+      ],
+      "matchCurrentVersion": "[1.0.4,1.0.8)",
+      "allowedVersions": "1.0.8"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "io.github.achacha:DadaWordEngine"
       ],
       "matchCurrentVersion": "[1.3.1,1.5.2)",
@@ -2547,7 +3847,77 @@
       "matchPackageNames": [
         "io.github.alexswilliams:logstash-log4j2-encoder"
       ],
-      "matchCurrentVersion": "[0.0.1,1.0.2)",
+      "matchCurrentVersion": "[0.0.1,1.0.3)",
+      "allowedVersions": "1.0.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.github.asharapov.logtrace:logtrace-log4j2"
+      ],
+      "matchCurrentVersion": "[0.8.0,0.8.1)",
+      "allowedVersions": "0.8.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.github.autumn-framework:autumn-api"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.0.2)",
+      "allowedVersions": "1.0.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.github.autumn-framework:autumn-executors"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.0.2)",
+      "allowedVersions": "1.0.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.github.autumn-framework:autumn-jira"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.0.2)",
+      "allowedVersions": "1.0.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.github.autumn-framework:autumn-reporting"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.0.2)",
+      "allowedVersions": "1.0.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.github.autumn-framework:autumn-ui"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.0.2)",
+      "allowedVersions": "1.0.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.github.autumn-framework:autumn-utils"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.0.2)",
       "allowedVersions": "1.0.2"
     },
     {
@@ -2557,8 +3927,18 @@
       "matchPackageNames": [
         "io.github.edwgiz:log4j-maven-shade-plugin-extensions"
       ],
-      "matchCurrentVersion": "[2.16.0,2.17.0)",
-      "allowedVersions": "2.17.0"
+      "matchCurrentVersion": "[2.16.0,2.17.1)",
+      "allowedVersions": "2.17.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.github.egonw.bacting:managers-oscar"
+      ],
+      "matchCurrentVersion": "[0.0.18,0.0.29)",
+      "allowedVersions": "0.0.29"
     },
     {
       "extends": [
@@ -2577,8 +3957,8 @@
       "matchPackageNames": [
         "io.github.fslev:jtest-utils"
       ],
-      "matchCurrentVersion": "[1.10,1.55)",
-      "allowedVersions": "1.55"
+      "matchCurrentVersion": "[1.10,1.57)",
+      "allowedVersions": "1.57"
     },
     {
       "extends": [
@@ -2587,8 +3967,8 @@
       "matchPackageNames": [
         "io.github.m-moris:log4j2-azure-blob-appender"
       ],
-      "matchCurrentVersion": "[1.0.1,1.1.5)",
-      "allowedVersions": "1.1.5"
+      "matchCurrentVersion": "[1.0.1,1.1.6)",
+      "allowedVersions": "1.1.6"
     },
     {
       "extends": [
@@ -2607,8 +3987,8 @@
       "matchPackageNames": [
         "io.github.route4me:route4me-java-sdk"
       ],
-      "matchCurrentVersion": "[1.6.0,1.6.4)",
-      "allowedVersions": "1.6.4"
+      "matchCurrentVersion": "[1.6.0,1.6.7)",
+      "allowedVersions": "1.6.7"
     },
     {
       "extends": [
@@ -2625,10 +4005,40 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "io.github.sproket:persism"
+      ],
+      "matchCurrentVersion": "[1.0.3,1.2.1)",
+      "allowedVersions": "1.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.github.sproket:persism"
+      ],
+      "matchCurrentVersion": "[2.0.0,2.0.1)",
+      "allowedVersions": "2.0.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "io.github.venafi:vcert-java"
       ],
-      "matchCurrentVersion": "[0.6.2,0.8.3)",
-      "allowedVersions": "0.8.3"
+      "matchCurrentVersion": "[0.6.2,0.8.4)",
+      "allowedVersions": "0.8.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.github.x-englishwordnet:ewn-beans"
+      ],
+      "matchCurrentVersion": "[1.21.0,1.21.1)",
+      "allowedVersions": "1.21.1"
     },
     {
       "extends": [
@@ -2647,8 +4057,8 @@
       "matchPackageNames": [
         "io.github.zhangyu836:xltpl"
       ],
-      "matchCurrentVersion": "[0.1.0,0.2.0)",
-      "allowedVersions": "0.2.0"
+      "matchCurrentVersion": "[0.1.0,0.3.0)",
+      "allowedVersions": "0.3.0"
     },
     {
       "extends": [
@@ -2659,6 +4069,26 @@
       ],
       "matchCurrentVersion": "[1.0.5,1.0.7)",
       "allowedVersions": "1.0.7"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.javaoperatorsdk:operator-framework"
+      ],
+      "matchCurrentVersion": "[1.10.0,2.0.0-RC1)",
+      "allowedVersions": "2.0.0-RC1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.javaoperatorsdk:operator-framework-core"
+      ],
+      "matchCurrentVersion": "[2.0.0-M1,2.0.0-RC1)",
+      "allowedVersions": "2.0.0-RC1"
     },
     {
       "extends": [
@@ -2695,6 +4125,16 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "io.lavagna:lavagna"
+      ],
+      "matchCurrentVersion": "[1.1.3,1.1.9)",
+      "allowedVersions": "1.1.9"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "io.logz.log4j2:logzio-log4j2-appender"
       ],
       "matchCurrentVersion": "[1.0.11,1.0.15)",
@@ -2705,7 +4145,407 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "io.netty:netty-common"
+      ],
+      "matchCurrentVersion": "[4.1.10.Final,4.1.72.Final)",
+      "allowedVersions": "4.1.72.Final"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:adapters-api"
+      ],
+      "matchCurrentVersion": "[4.15.70,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:docsys"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-cockroachdb"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "io.nosqlbench:driver-cql-shaded"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-cqld3-shaded"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-cqlverify"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-diag"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-dsegraph-shaded"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-grpc"
+      ],
+      "matchCurrentVersion": "[4.15.70,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-http"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-jdbc"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-jms"
+      ],
+      "matchCurrentVersion": "[4.15.45,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-jmx"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-kafka"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-mongodb"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-pulsar"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-stdout"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-tcp"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:driver-web"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:drivers-api"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:engine-api"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:engine-cli"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:engine-clients"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:engine-core"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:engine-docker"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:engine-docs"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:engine-extensions"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:engine-rest"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:nb"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:nb-annotations"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:nb-api"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:nbr"
+      ],
+      "matchCurrentVersion": "[4.15.70,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:virtdata-api"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:virtdata-lang"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:virtdata-lib-basics"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:virtdata-lib-curves4"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:virtdata-lib-random"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:virtdata-lib-realer"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:virtdata-realdata"
+      ],
+      "matchCurrentVersion": "[4.15.31,4.15.72)",
+      "allowedVersions": "4.15.72"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.nosqlbench:virtdata-userlibs"
       ],
       "matchCurrentVersion": "[4.15.31,4.15.72)",
       "allowedVersions": "4.15.72"
@@ -2735,6 +4575,56 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "io.ray:ray-api"
+      ],
+      "matchCurrentVersion": "[1.6.0,1.9.1)",
+      "allowedVersions": "1.9.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.ray:ray-runtime"
+      ],
+      "matchCurrentVersion": "[1.6.0,1.9.1)",
+      "allowedVersions": "1.9.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.ray:streaming-api"
+      ],
+      "matchCurrentVersion": "[1.6.0,1.9.1)",
+      "allowedVersions": "1.9.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.ray:streaming-runtime"
+      ],
+      "matchCurrentVersion": "[1.7.0,1.9.1)",
+      "allowedVersions": "1.9.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.ray:streaming-state"
+      ],
+      "matchCurrentVersion": "[1.6.0,1.9.1)",
+      "allowedVersions": "1.9.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "io.reactiverse:reactiverse-contextual-logging"
       ],
       "matchCurrentVersion": "[1.1.0,1.1.2)",
@@ -2755,10 +4645,30 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "io.rtdi.bigdata.connector:pipelinefoundation"
+      ],
+      "matchCurrentVersion": "[0.10.1,0.10.15)",
+      "allowedVersions": "0.10.15"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.rtdi.bigdata.kafka:kafkaavro"
+      ],
+      "matchCurrentVersion": "[0.10.10,0.10.12)",
+      "allowedVersions": "0.10.12"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "io.sentry:sentry-log4j2"
       ],
-      "matchCurrentVersion": "[1.1.0,5.5.1)",
-      "allowedVersions": "5.5.1"
+      "matchCurrentVersion": "[1.1.0,5.5.2)",
+      "allowedVersions": "5.5.2"
     },
     {
       "extends": [
@@ -2787,8 +4697,8 @@
       "matchPackageNames": [
         "io.streamnative:pulsar-broker-shaded"
       ],
-      "matchCurrentVersion": "[2.6.3.1,2.8.1.30)",
-      "allowedVersions": "2.8.1.30"
+      "matchCurrentVersion": "[2.6.3.1,2.8.2.2)",
+      "allowedVersions": "2.8.2.2"
     },
     {
       "extends": [
@@ -2797,8 +4707,8 @@
       "matchPackageNames": [
         "io.streamnative:pulsar-broker-shaded"
       ],
-      "matchCurrentVersion": "[2.9.0-rc-202106092205,2.9.1.0-rc2)",
-      "allowedVersions": "2.9.1.0-rc2"
+      "matchCurrentVersion": "[2.9.0-rc-202106092205,2.9.1.2)",
+      "allowedVersions": "2.9.1.2"
     },
     {
       "extends": [
@@ -2807,8 +4717,8 @@
       "matchPackageNames": [
         "io.streamnative:pulsar-broker-shaded"
       ],
-      "matchCurrentVersion": "[2.10.0-rc-202110192205,2.10.0-rc-2021121511380612)",
-      "allowedVersions": "2.10.0-rc-2021121511380612"
+      "matchCurrentVersion": "[2.10.0-rc-202110192205,2.10.0-rc-202112292205)",
+      "allowedVersions": "2.10.0-rc-202112292205"
     },
     {
       "extends": [
@@ -2829,6 +4739,16 @@
       ],
       "matchCurrentVersion": "[0.0.6,0.0.7)",
       "allowedVersions": "0.0.7"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.ultreia.java4all:java-util"
+      ],
+      "matchCurrentVersion": "[1.0.14,1.0.17)",
+      "allowedVersions": "1.0.17"
     },
     {
       "extends": [
@@ -2865,6 +4785,36 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "io.vertx:vertx-camel-bridge"
+      ],
+      "matchCurrentVersion": "[3.8.4,3.9.12)",
+      "allowedVersions": "3.9.12"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.vertx:vertx-camel-bridge"
+      ],
+      "matchCurrentVersion": "[4.0.0,4.1.8)",
+      "allowedVersions": "4.1.8"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.vertx:vertx-camel-bridge"
+      ],
+      "matchCurrentVersion": "[4.2.0,4.2.3)",
+      "allowedVersions": "4.2.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "io.vertx:vertx-core"
       ],
       "matchCurrentVersion": "[3.4.2.redhat-009,3.9.12)",
@@ -2877,7 +4827,17 @@
       "matchPackageNames": [
         "io.vertx:vertx-core"
       ],
-      "matchCurrentVersion": "[4.0.0,4.2.3)",
+      "matchCurrentVersion": "[4.0.0,4.1.8)",
+      "allowedVersions": "4.1.8"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.vertx:vertx-core"
+      ],
+      "matchCurrentVersion": "[4.2.0,4.2.3)",
       "allowedVersions": "4.2.3"
     },
     {
@@ -2887,8 +4847,148 @@
       "matchPackageNames": [
         "io.vertx:vertx-mail-client"
       ],
-      "matchCurrentVersion": "[4.0.0,4.2.3)",
+      "matchCurrentVersion": "[4.0.0,4.1.8)",
+      "allowedVersions": "4.1.8"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.vertx:vertx-mail-client"
+      ],
+      "matchCurrentVersion": "[4.2.0,4.2.3)",
       "allowedVersions": "4.2.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:brave-instrumentation-aws-java-sdk-core"
+      ],
+      "matchCurrentVersion": "[0.15.1,0.23.3)",
+      "allowedVersions": "0.23.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:brave-instrumentation-aws-java-sdk-sqs"
+      ],
+      "matchCurrentVersion": "[0.17.0,0.23.3)",
+      "allowedVersions": "0.23.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:brave-instrumentation-aws-java-sdk-v2-core"
+      ],
+      "matchCurrentVersion": "[0.15.2,0.23.3)",
+      "allowedVersions": "0.23.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:brave-propagation-aws"
+      ],
+      "matchCurrentVersion": "[0.23.1,0.23.3)",
+      "allowedVersions": "0.23.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:zipkin-aws-junit"
+      ],
+      "matchCurrentVersion": "[0.23.1,0.23.3)",
+      "allowedVersions": "0.23.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:zipkin-awssdk-sqs"
+      ],
+      "matchCurrentVersion": "[0.23.1,0.23.3)",
+      "allowedVersions": "0.23.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:zipkin-collector-kinesis"
+      ],
+      "matchCurrentVersion": "[0.23.1,0.23.3)",
+      "allowedVersions": "0.23.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:zipkin-collector-sqs"
+      ],
+      "matchCurrentVersion": "[0.23.1,0.23.3)",
+      "allowedVersions": "0.23.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:zipkin-module-aws"
+      ],
+      "matchCurrentVersion": "[0.23.0,0.23.3)",
+      "allowedVersions": "0.23.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:zipkin-reporter-xray-udp"
+      ],
+      "matchCurrentVersion": "[0.23.1,0.23.3)",
+      "allowedVersions": "0.23.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:zipkin-sender-kinesis"
+      ],
+      "matchCurrentVersion": "[0.13.3,0.23.3)",
+      "allowedVersions": "0.23.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:zipkin-sender-sqs"
+      ],
+      "matchCurrentVersion": "[0.23.1,0.23.3)",
+      "allowedVersions": "0.23.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "io.zipkin.aws:zipkin-storage-xray-udp"
+      ],
+      "matchCurrentVersion": "[0.23.1,0.23.3)",
+      "allowedVersions": "0.23.3"
     },
     {
       "extends": [
@@ -2897,8 +4997,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -2907,8 +5007,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-context-jfr"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -2917,8 +5017,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-context-log4j12"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -2927,8 +5027,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-context-log4j2"
       ],
-      "matchCurrentVersion": "[4.13.6,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[4.13.6,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -2937,8 +5037,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-context-rxjava2"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -2947,8 +5047,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-context-slf4j"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -2957,8 +5057,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-dubbo"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -2967,8 +5067,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-dubbo-rpc"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -2977,8 +5077,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-grpc"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -2987,8 +5087,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-http"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -2997,8 +5097,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-http-tests"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3007,8 +5107,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-httpasyncclient"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3017,8 +5117,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-httpclient"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3027,8 +5127,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-jaxrs2"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3037,8 +5137,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-jersey-server"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3047,8 +5147,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-jms"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3057,8 +5157,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-kafka-clients"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3067,8 +5167,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-kafka-streams"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3077,8 +5177,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-messaging"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3087,8 +5187,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-mongodb"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3097,8 +5197,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-mysql"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3107,8 +5207,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-mysql6"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3117,8 +5217,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-mysql8"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3127,8 +5227,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-netty-codec-http"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3137,8 +5237,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-okhttp3"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3147,8 +5247,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-p6spy"
       ],
-      "matchCurrentVersion": "[5.13.4,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.4,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3157,8 +5257,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-rpc"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3167,8 +5267,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-servlet"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3177,8 +5277,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-sparkjava"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3187,8 +5287,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-spring-rabbit"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3197,8 +5297,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-spring-web"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3207,8 +5307,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-spring-webmvc"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3217,8 +5317,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-instrumentation-vertx-web"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3227,8 +5327,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-spring-beans"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3237,8 +5337,8 @@
       "matchPackageNames": [
         "io.zipkin.brave:brave-tests"
       ],
-      "matchCurrentVersion": "[5.13.1,5.13.5)",
-      "allowedVersions": "5.13.5"
+      "matchCurrentVersion": "[5.13.1,5.13.7)",
+      "allowedVersions": "5.13.7"
     },
     {
       "extends": [
@@ -3247,8 +5347,8 @@
       "matchPackageNames": [
         "io.zipkin:zipkin-server"
       ],
-      "matchCurrentVersion": "[2.23.14,2.23.15)",
-      "allowedVersions": "2.23.15"
+      "matchCurrentVersion": "[2.23.14,2.23.16)",
+      "allowedVersions": "2.23.16"
     },
     {
       "extends": [
@@ -3395,10 +5495,50 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "net.mamoe:mirai-logging-log4j2"
+      ],
+      "matchCurrentVersion": "[2.7.1,2.9.0-RC)",
+      "allowedVersions": "2.9.0-RC"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "net.mingsoft:ms-base"
+      ],
+      "matchCurrentVersion": "[1.0.26,2.1.10)",
+      "allowedVersions": "2.1.10"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "net.nextpulse:jadmin"
+      ],
+      "matchCurrentVersion": "[0.5.1,0.5.4)",
+      "allowedVersions": "0.5.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "net.sourceforge.htmlunit:htmlunit"
+      ],
+      "matchCurrentVersion": "[2.36.0,2.56.0)",
+      "allowedVersions": "2.56.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "net.sourceforge.openutils:openutils-log4j"
       ],
-      "matchCurrentVersion": "[3.0.3,3.0.10)",
-      "allowedVersions": "3.0.10"
+      "matchCurrentVersion": "[3.0.10,3.0.11)",
+      "allowedVersions": "3.0.11"
     },
     {
       "extends": [
@@ -3407,8 +5547,8 @@
       "matchPackageNames": [
         "nl.basjes.parse.useragent:yauaa"
       ],
-      "matchCurrentVersion": "[6.0,6.6)",
-      "allowedVersions": "6.6"
+      "matchCurrentVersion": "[6.0,6.7)",
+      "allowedVersions": "6.7"
     },
     {
       "extends": [
@@ -3417,8 +5557,8 @@
       "matchPackageNames": [
         "nl.basjes.parse.useragent:yauaa-beam"
       ],
-      "matchCurrentVersion": "[6.0,6.5)",
-      "allowedVersions": "6.5"
+      "matchCurrentVersion": "[6.0,6.7)",
+      "allowedVersions": "6.7"
     },
     {
       "extends": [
@@ -3427,8 +5567,8 @@
       "matchPackageNames": [
         "nl.basjes.parse.useragent:yauaa-beam-sql"
       ],
-      "matchCurrentVersion": "[6.0,6.5)",
-      "allowedVersions": "6.5"
+      "matchCurrentVersion": "[6.0,6.7)",
+      "allowedVersions": "6.7"
     },
     {
       "extends": [
@@ -3437,8 +5577,8 @@
       "matchPackageNames": [
         "nl.basjes.parse.useragent:yauaa-flink"
       ],
-      "matchCurrentVersion": "[6.0,6.5)",
-      "allowedVersions": "6.5"
+      "matchCurrentVersion": "[6.0,6.7)",
+      "allowedVersions": "6.7"
     },
     {
       "extends": [
@@ -3447,8 +5587,8 @@
       "matchPackageNames": [
         "nl.basjes.parse.useragent:yauaa-flink-table"
       ],
-      "matchCurrentVersion": "[6.0,6.5)",
-      "allowedVersions": "6.5"
+      "matchCurrentVersion": "[6.0,6.7)",
+      "allowedVersions": "6.7"
     },
     {
       "extends": [
@@ -3457,8 +5597,8 @@
       "matchPackageNames": [
         "nl.basjes.parse.useragent:yauaa-logparser"
       ],
-      "matchCurrentVersion": "[6.0,6.5)",
-      "allowedVersions": "6.5"
+      "matchCurrentVersion": "[6.0,6.7)",
+      "allowedVersions": "6.7"
     },
     {
       "extends": [
@@ -3467,8 +5607,8 @@
       "matchPackageNames": [
         "nl.basjes.parse.useragent:yauaa-pig"
       ],
-      "matchCurrentVersion": "[6.0,6.5)",
-      "allowedVersions": "6.5"
+      "matchCurrentVersion": "[6.0,6.7)",
+      "allowedVersions": "6.7"
     },
     {
       "extends": [
@@ -3477,8 +5617,8 @@
       "matchPackageNames": [
         "nl.basjes.parse.useragent:yauaa-snowflake"
       ],
-      "matchCurrentVersion": "[6.2,6.5)",
-      "allowedVersions": "6.5"
+      "matchCurrentVersion": "[6.2,6.7)",
+      "allowedVersions": "6.7"
     },
     {
       "extends": [
@@ -3505,10 +5645,50 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "nl.sidnlabs:dnslib"
+      ],
+      "matchCurrentVersion": "[0.1.3,0.2.13)",
+      "allowedVersions": "0.2.13"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "nl.sidnlabs:pcap-lib"
+      ],
+      "matchCurrentVersion": "[0.2.11,0.2.18)",
+      "allowedVersions": "0.2.18"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "no.mnemonic.commons:logging-log4j"
       ],
       "matchCurrentVersion": "[0.1.9,0.4.10)",
       "allowedVersions": "0.4.10"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.alluxio:alluxio-shaded-client"
+      ],
+      "matchCurrentVersion": "[2.4.1-3,2.7.2)",
+      "allowedVersions": "2.7.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.aoju:bus-logger"
+      ],
+      "matchCurrentVersion": "[3.0.0,6.3.3)",
+      "allowedVersions": "6.3.3"
     },
     {
       "extends": [
@@ -3615,10 +5795,160 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "org.apache.camel:camel-jbang-core"
+      ],
+      "matchCurrentVersion": "[3.13.0,3.14.0)",
+      "allowedVersions": "3.14.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.daffodil:daffodil-core_2.12"
+      ],
+      "matchCurrentVersion": "[3.2.0,3.2.1)",
+      "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.daffodil:daffodil-io_2.12"
+      ],
+      "matchCurrentVersion": "[3.2.0,3.2.1)",
+      "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "org.apache.daffodil:daffodil-japi_2.12"
       ],
       "matchCurrentVersion": "[3.2.0,3.2.1)",
       "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.daffodil:daffodil-lib_2.12"
+      ],
+      "matchCurrentVersion": "[3.2.0,3.2.1)",
+      "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.daffodil:daffodil-runtime1-layers_2.12"
+      ],
+      "matchCurrentVersion": "[3.2.0,3.2.1)",
+      "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.daffodil:daffodil-runtime1-unparser_2.12"
+      ],
+      "matchCurrentVersion": "[3.2.0,3.2.1)",
+      "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.daffodil:daffodil-runtime1_2.12"
+      ],
+      "matchCurrentVersion": "[3.2.0,3.2.1)",
+      "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.daffodil:daffodil-runtime2_2.12"
+      ],
+      "matchCurrentVersion": "[3.2.0,3.2.1)",
+      "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.daffodil:daffodil-sapi_2.12"
+      ],
+      "matchCurrentVersion": "[3.2.0,3.2.1)",
+      "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.daffodil:daffodil-schematron_2.12"
+      ],
+      "matchCurrentVersion": "[3.2.0,3.2.1)",
+      "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.daffodil:daffodil-tdml-lib_2.12"
+      ],
+      "matchCurrentVersion": "[3.2.0,3.2.1)",
+      "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.daffodil:daffodil-tdml-processor_2.12"
+      ],
+      "matchCurrentVersion": "[3.2.0,3.2.1)",
+      "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.daffodil:daffodil-udf_2.12"
+      ],
+      "matchCurrentVersion": "[3.2.0,3.2.1)",
+      "allowedVersions": "3.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.directory.fortress:fortress-core"
+      ],
+      "matchCurrentVersion": "[2.0.6,2.0.7)",
+      "allowedVersions": "2.0.7"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.directory.fortress:fortress-rest"
+      ],
+      "matchCurrentVersion": "[2.0.6,2.0.7)",
+      "allowedVersions": "2.0.7"
     },
     {
       "extends": [
@@ -11295,6 +13625,16 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "org.apache.flink:flink-python_2.11"
+      ],
+      "matchCurrentVersion": "[1.14.0,1.14.1)",
+      "allowedVersions": "1.14.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "org.apache.flink:flink-python_2.12"
       ],
       "matchCurrentVersion": "[1.11.0,1.11.6)",
@@ -16247,7 +18587,17 @@
       "matchPackageNames": [
         "org.apache.flink:flink-table-uber-blink_2.12"
       ],
-      "matchCurrentVersion": "[1.12-csa1.3.0.0,1.12.7)",
+      "matchCurrentVersion": "[1.12-csa1.3.0.0,1.12-csadh1.4.1.1)",
+      "allowedVersions": "1.12-csadh1.4.1.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.flink:flink-table-uber-blink_2.12"
+      ],
+      "matchCurrentVersion": "[1.12.3,1.12.7)",
       "allowedVersions": "1.12.7"
     },
     {
@@ -17425,6 +19775,16 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "org.apache.hbase:hbase-shaded-testing-util"
+      ],
+      "matchCurrentVersion": "[3.0.0-alpha-1,3.0.0-alpha-2)",
+      "allowedVersions": "3.0.0-alpha-2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "org.apache.hive:hive-druid-handler"
       ],
       "matchCurrentVersion": "[3.1.3000.7.1.2.1-5,3.1.3000.7.2.7.11-4)",
@@ -17465,7 +19825,47 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
-        "org.apache.hive:hive-druid-handler"
+        "org.apache.hive:hive-it-druid"
+      ],
+      "matchCurrentVersion": "[3.1.3000.7.1.7.0-551,3.1.3000.7.2.7.11-4)",
+      "allowedVersions": "3.1.3000.7.2.7.11-4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.hive:hive-it-druid"
+      ],
+      "matchCurrentVersion": "[3.1.3000.7.2.8.0-228,3.1.3000.7.2.8.5-5)",
+      "allowedVersions": "3.1.3000.7.2.8.5-5"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.hive:hive-it-druid"
+      ],
+      "matchCurrentVersion": "[3.1.3000.7.2.9.0-203,3.1.3000.7.2.9.6-3)",
+      "allowedVersions": "3.1.3000.7.2.9.6-3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.hive:hive-it-druid"
+      ],
+      "matchCurrentVersion": "[3.1.3000.7.2.10.0-148,3.1.3000.7.2.11.4-3)",
+      "allowedVersions": "3.1.3000.7.2.11.4-3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.hive:hive-it-druid"
       ],
       "matchCurrentVersion": "[3.1.3000.7.2.12.0-291,3.1.3000.7.2.12.2-5)",
       "allowedVersions": "3.1.3000.7.2.12.2-5"
@@ -18017,8 +20417,18 @@
       "matchPackageNames": [
         "org.apache.pulsar:buildtools"
       ],
-      "matchCurrentVersion": "[2.2.0,2.9.1)",
-      "allowedVersions": "2.9.1"
+      "matchCurrentVersion": "[2.2.0,2.7.4)",
+      "allowedVersions": "2.7.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.pulsar:buildtools"
+      ],
+      "matchCurrentVersion": "[2.8.0,2.8.2)",
+      "allowedVersions": "2.8.2"
     },
     {
       "extends": [
@@ -18027,7 +20437,17 @@
       "matchPackageNames": [
         "org.apache.pulsar:pulsar-broker-shaded"
       ],
-      "matchCurrentVersion": "[2.1.0-incubating,2.9.1)",
+      "matchCurrentVersion": "[2.1.0-incubating,2.8.2)",
+      "allowedVersions": "2.8.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.pulsar:pulsar-broker-shaded"
+      ],
+      "matchCurrentVersion": "[2.9.0,2.9.1)",
       "allowedVersions": "2.9.1"
     },
     {
@@ -18059,6 +20479,16 @@
       ],
       "matchCurrentVersion": "[2.1.0.7.1.7.0-551,2.1.0.7.2.8.5-5)",
       "allowedVersions": "2.1.0.7.2.8.5-5"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.ranger:ranger-raz-webapp"
+      ],
+      "matchCurrentVersion": "[2.1.0.7.2.9.0-203,2.1.0.7.2.9.6-3)",
+      "allowedVersions": "2.1.0.7.2.9.6-3"
     },
     {
       "extends": [
@@ -18107,7 +20537,17 @@
       "matchPackageNames": [
         "org.apache.ranger:security-admin-web"
       ],
-      "matchCurrentVersion": "[2.1.0.7.2.10.0-148,2.1.0.7.2.12.2-5)",
+      "matchCurrentVersion": "[2.1.0.7.2.10.0-148,2.1.0.7.2.11.4-3)",
+      "allowedVersions": "2.1.0.7.2.11.4-3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.ranger:security-admin-web"
+      ],
+      "matchCurrentVersion": "[2.1.0.7.2.12.0-291,2.1.0.7.2.12.2-5)",
       "allowedVersions": "2.1.0.7.2.12.2-5"
     },
     {
@@ -18116,6 +20556,26 @@
       ],
       "matchPackageNames": [
         "org.apache.tika:tika-app"
+      ],
+      "matchCurrentVersion": "[2.0.0,2.2.1)",
+      "allowedVersions": "2.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.tika:tika-core"
+      ],
+      "matchCurrentVersion": "[2.0.0,2.2.1)",
+      "allowedVersions": "2.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apache.tika:tika-eval-app"
       ],
       "matchCurrentVersion": "[2.0.0,2.2.1)",
       "allowedVersions": "2.2.1"
@@ -18135,6 +20595,16 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "org.apache.tika:tika-server-core"
+      ],
+      "matchCurrentVersion": "[2.1.0,2.2.1)",
+      "allowedVersions": "2.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "org.apache.tika:tika-server-standard"
       ],
       "matchCurrentVersion": "[2.2.0,2.2.1)",
@@ -18145,10 +20615,10 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
-        "org.apereo.cas:cas-server-core-logging-api"
+        "org.apereo.cas:cas-server-core-logging"
       ],
-      "matchCurrentVersion": "[6.0.0,6.3.7.4)",
-      "allowedVersions": "6.3.7.4"
+      "matchCurrentVersion": "[5.1.0-RC2,6.5.0-RC4)",
+      "allowedVersions": "6.5.0-RC4"
     },
     {
       "extends": [
@@ -18156,6 +20626,26 @@
       ],
       "matchPackageNames": [
         "org.apereo.cas:cas-server-core-logging-api"
+      ],
+      "matchCurrentVersion": "[6.0.0,6.5.0-RC4)",
+      "allowedVersions": "6.5.0-RC4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apereo.cas:cas-server-support-reports-core"
+      ],
+      "matchCurrentVersion": "[6.3.3,6.3.7.4)",
+      "allowedVersions": "6.3.7.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.apereo.cas:cas-server-support-reports-core"
       ],
       "matchCurrentVersion": "[6.4.0,6.4.4.2)",
       "allowedVersions": "6.4.4.2"
@@ -18169,6 +20659,156 @@
       ],
       "matchCurrentVersion": "[3.16.0,3.24.0)",
       "allowedVersions": "3.24.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework.extensions.kafka:axon-kafka"
+      ],
+      "matchCurrentVersion": "[4.5,4.5.1)",
+      "allowedVersions": "4.5.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework.extensions.kafka:axon-kafka-spring-boot-autoconfigure"
+      ],
+      "matchCurrentVersion": "[4.5,4.5.1)",
+      "allowedVersions": "4.5.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework.extensions.kafka:axon-kafka-spring-boot-starter"
+      ],
+      "matchCurrentVersion": "[4.5,4.5.1)",
+      "allowedVersions": "4.5.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework:axon-configuration"
+      ],
+      "matchCurrentVersion": "[4.3,4.5.6)",
+      "allowedVersions": "4.5.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework:axon-disruptor"
+      ],
+      "matchCurrentVersion": "[4.3,4.5.6)",
+      "allowedVersions": "4.5.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework:axon-eventsourcing"
+      ],
+      "matchCurrentVersion": "[4.3,4.5.6)",
+      "allowedVersions": "4.5.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework:axon-legacy"
+      ],
+      "matchCurrentVersion": "[4.3,4.5.6)",
+      "allowedVersions": "4.5.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework:axon-messaging"
+      ],
+      "matchCurrentVersion": "[4.3,4.5.6)",
+      "allowedVersions": "4.5.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework:axon-metrics"
+      ],
+      "matchCurrentVersion": "[4.3,4.5.6)",
+      "allowedVersions": "4.5.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework:axon-micrometer"
+      ],
+      "matchCurrentVersion": "[4.3,4.5.6)",
+      "allowedVersions": "4.5.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework:axon-modelling"
+      ],
+      "matchCurrentVersion": "[4.3,4.5.6)",
+      "allowedVersions": "4.5.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework:axon-server-connector"
+      ],
+      "matchCurrentVersion": "[4.3,4.5.6)",
+      "allowedVersions": "4.5.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework:axon-spring"
+      ],
+      "matchCurrentVersion": "[4.3,4.5.6)",
+      "allowedVersions": "4.5.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework:axon-spring-boot-autoconfigure"
+      ],
+      "matchCurrentVersion": "[4.3,4.5.6)",
+      "allowedVersions": "4.5.6"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.axonframework:axon-test"
+      ],
+      "matchCurrentVersion": "[4.3.1,4.5.6)",
+      "allowedVersions": "4.5.6"
     },
     {
       "extends": [
@@ -18437,8 +21077,18 @@
       "matchPackageNames": [
         "org.bridgedb:org.bridgedb.utils"
       ],
-      "matchCurrentVersion": "[3.0.10,3.0.11)",
-      "allowedVersions": "3.0.11"
+      "matchCurrentVersion": "[3.0.10,3.0.12)",
+      "allowedVersions": "3.0.12"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.broadinstitute:barclay"
+      ],
+      "matchCurrentVersion": "[3.0.0,4.0.2)",
+      "allowedVersions": "4.0.2"
     },
     {
       "extends": [
@@ -18477,8 +21127,8 @@
       "matchPackageNames": [
         "org.clojure:tools.logging"
       ],
-      "matchCurrentVersion": "[0.5.0,1.2.3)",
-      "allowedVersions": "1.2.3"
+      "matchCurrentVersion": "[0.5.0,1.2.4)",
+      "allowedVersions": "1.2.4"
     },
     {
       "extends": [
@@ -18487,8 +21137,8 @@
       "matchPackageNames": [
         "org.cloudera.logredactor:logredactor"
       ],
-      "matchCurrentVersion": "[2.0.10,2.0.12)",
-      "allowedVersions": "2.0.12"
+      "matchCurrentVersion": "[2.0.10,2.0.13)",
+      "allowedVersions": "2.0.13"
     },
     {
       "extends": [
@@ -18545,10 +21195,20 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "org.codelibs.opensearch:opensearch-runner"
+      ],
+      "matchCurrentVersion": "[1.1.0.0,1.2.3.0)",
+      "allowedVersions": "1.2.3.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "org.craftercms:crafter-engine"
       ],
-      "matchCurrentVersion": "[3.1.0,3.1.17.5)",
-      "allowedVersions": "3.1.17.5"
+      "matchCurrentVersion": "[3.1.0,3.1.17.7)",
+      "allowedVersions": "3.1.17.7"
     },
     {
       "extends": [
@@ -18557,8 +21217,8 @@
       "matchPackageNames": [
         "org.craftercms:crafter-profile"
       ],
-      "matchCurrentVersion": "[3.1.0,3.1.17.5)",
-      "allowedVersions": "3.1.17.5"
+      "matchCurrentVersion": "[3.1.0,3.1.17.7)",
+      "allowedVersions": "3.1.17.7"
     },
     {
       "extends": [
@@ -18567,8 +21227,8 @@
       "matchPackageNames": [
         "org.craftercms:crafter-profile-admin-console"
       ],
-      "matchCurrentVersion": "[3.1.0,3.1.17.5)",
-      "allowedVersions": "3.1.17.5"
+      "matchCurrentVersion": "[3.1.0,3.1.17.7E)",
+      "allowedVersions": "3.1.17.7E"
     },
     {
       "extends": [
@@ -18577,8 +21237,8 @@
       "matchPackageNames": [
         "org.craftercms:crafter-search-solr-server"
       ],
-      "matchCurrentVersion": "[3.1.0,3.1.17.5)",
-      "allowedVersions": "3.1.17.5"
+      "matchCurrentVersion": "[3.1.0,3.1.17.7)",
+      "allowedVersions": "3.1.17.7"
     },
     {
       "extends": [
@@ -18587,8 +21247,8 @@
       "matchPackageNames": [
         "org.craftercms:crafter-social"
       ],
-      "matchCurrentVersion": "[3.1.0,3.1.17.5)",
-      "allowedVersions": "3.1.17.5"
+      "matchCurrentVersion": "[3.1.0,3.1.17.7)",
+      "allowedVersions": "3.1.17.7"
     },
     {
       "extends": [
@@ -18597,8 +21257,8 @@
       "matchPackageNames": [
         "org.craftercms:crafter-social-admin"
       ],
-      "matchCurrentVersion": "[3.1.0,3.1.17.5)",
-      "allowedVersions": "3.1.17.5"
+      "matchCurrentVersion": "[3.1.0,3.1.17.7)",
+      "allowedVersions": "3.1.17.7"
     },
     {
       "extends": [
@@ -18725,6 +21385,16 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "org.fluentcodes.projects.elasticobjects:elastic-objects"
+      ],
+      "matchCurrentVersion": "[0.1.0,0.9.2)",
+      "allowedVersions": "0.9.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "org.hibernate.orm:hibernate-testing"
       ],
       "matchCurrentVersion": "[6.0.0.Alpha9,6.0.0.Beta3)",
@@ -18749,6 +21419,36 @@
       ],
       "matchCurrentVersion": "[5.6.0.Beta1,5.6.3.Final)",
       "allowedVersions": "5.6.3.Final"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.hotrodorm.hotrod:hotrod"
+      ],
+      "matchCurrentVersion": "[3.1.0,3.4.3)",
+      "allowedVersions": "3.4.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.hotrodorm.hotrod:hotrod-generator"
+      ],
+      "matchCurrentVersion": "[3.1.0,3.2.3)",
+      "allowedVersions": "3.2.3"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.hotrodorm.hotrod:hotrod-generator"
+      ],
+      "matchCurrentVersion": "[3.3.0,3.4.3)",
+      "allowedVersions": "3.4.3"
     },
     {
       "extends": [
@@ -18915,10 +21615,10 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
-        "org.hyperledger.fabric-sdk-java:fabric-sdk-java"
+        "org.hswebframework:hsweb-easy-orm-elasticsearch"
       ],
-      "matchCurrentVersion": "[1.4.10,1.4.14)",
-      "allowedVersions": "1.4.14"
+      "matchCurrentVersion": "[3.0.7,4.0.13)",
+      "allowedVersions": "4.0.13"
     },
     {
       "extends": [
@@ -18927,8 +21627,18 @@
       "matchPackageNames": [
         "org.hyperledger.fabric-sdk-java:fabric-sdk-java"
       ],
-      "matchCurrentVersion": "[2.1.3,2.2.10)",
-      "allowedVersions": "2.2.10"
+      "matchCurrentVersion": "[1.4.10,1.4.15)",
+      "allowedVersions": "1.4.15"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.hyperledger.fabric-sdk-java:fabric-sdk-java"
+      ],
+      "matchCurrentVersion": "[2.1.3,2.2.11)",
+      "allowedVersions": "2.2.11"
     },
     {
       "extends": [
@@ -19025,10 +21735,130 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "org.jgroups:jgroups"
+      ],
+      "matchCurrentVersion": "[3.6.13.Final-redhat-2,4.2.18.Final)",
+      "allowedVersions": "4.2.18.Final"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.lable.oss.dynamicconfig.provider:dynamic-config-provider-etcd"
+      ],
+      "matchCurrentVersion": "[3.0-beta1,4.0)",
+      "allowedVersions": "4.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.lable.oss.dynamicconfig:dynamic-config-core"
+      ],
+      "matchCurrentVersion": "[2.6-beta10,4.0)",
+      "allowedVersions": "4.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.lable.oss.dynamicconfig:dynamic-config-it-core"
+      ],
+      "matchCurrentVersion": "[3.0-beta1,4.0)",
+      "allowedVersions": "4.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.lable.oss.dynamicconfig:dynamic-config-it-etcd"
+      ],
+      "matchCurrentVersion": "[3.0-beta1,4.0)",
+      "allowedVersions": "4.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.lable.oss.dynamicconfig:dynamic-config-servlet-util"
+      ],
+      "matchCurrentVersion": "[2.6-beta10,4.0)",
+      "allowedVersions": "4.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "org.lockss:lockss-util-core"
       ],
-      "matchCurrentVersion": "[1.10.0,1.11.0)",
-      "allowedVersions": "1.11.0"
+      "matchCurrentVersion": "[1.10.0,1.11.1)",
+      "allowedVersions": "1.11.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.marketdesignresearch:mechlib"
+      ],
+      "matchCurrentVersion": "[0.1.0,0.2.1)",
+      "allowedVersions": "0.2.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.mitre.dsmiley.httpproxy:smiley-http-proxy-servlet"
+      ],
+      "matchCurrentVersion": "[1.12,1.12.1)",
+      "allowedVersions": "1.12.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.mybatis:mybatis"
+      ],
+      "matchCurrentVersion": "[3.5.0,3.5.9)",
+      "allowedVersions": "3.5.9"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.nkjmlab:nkjmlab-utils-core"
+      ],
+      "matchCurrentVersion": "[0.1.0,0.1.7)",
+      "allowedVersions": "0.1.7"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.nkjmlab:nkjmlab-utils-helper"
+      ],
+      "matchCurrentVersion": "[0.1.2,0.1.7)",
+      "allowedVersions": "0.1.7"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.nlp4j:nlp4j-core"
+      ],
+      "matchCurrentVersion": "[1.2.0.0,1.3.4.0)",
+      "allowedVersions": "1.3.4.0"
     },
     {
       "extends": [
@@ -19037,8 +21867,58 @@
       "matchPackageNames": [
         "org.noear:log4j2-solon-plugin"
       ],
-      "matchCurrentVersion": "[1.6.8,1.6.9-m2)",
-      "allowedVersions": "1.6.9-m2"
+      "matchCurrentVersion": "[1.6.10,1.6.12-m1)",
+      "allowedVersions": "1.6.12-m1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.opennms.catheter:catheter"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.1.1)",
+      "allowedVersions": "1.1.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.opennms.nephron:flink-runner"
+      ],
+      "matchCurrentVersion": "[0.1.1,0.3.1)",
+      "allowedVersions": "0.3.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.opennms.nephron:nephron-cortex"
+      ],
+      "matchCurrentVersion": "[0.3.0,0.3.1)",
+      "allowedVersions": "0.3.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.opennms.nephron:nephron-main"
+      ],
+      "matchCurrentVersion": "[0.1.1,0.3.1)",
+      "allowedVersions": "0.3.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.opennms.nephron:testing"
+      ],
+      "matchCurrentVersion": "[0.3.0,0.3.1)",
+      "allowedVersions": "0.3.1"
     },
     {
       "extends": [
@@ -19047,8 +21927,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:ProvToolbox-Tutorial1"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19057,8 +21937,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:ProvToolbox-Tutorial2"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19067,8 +21947,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:ProvToolbox-Tutorial3"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19077,8 +21957,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:ProvToolbox-Tutorial4"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19087,8 +21967,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:ProvToolbox-Tutorial5"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19097,8 +21977,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:docker-service-translator"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19107,8 +21987,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-dot"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19117,8 +21997,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-generator"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19127,8 +22007,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-interop"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19137,8 +22017,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-interop-light"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19147,8 +22027,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-json"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19157,8 +22037,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-jsonld"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19167,8 +22047,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-jsonld-xml"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19177,8 +22057,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-jsweet-candy-java"
       ],
-      "matchCurrentVersion": "[0.9.11,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.11,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19187,8 +22067,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-jsweet-candy-js"
       ],
-      "matchCurrentVersion": "[0.9.11,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.11,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19197,8 +22077,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-log"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19207,8 +22087,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-model"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19217,8 +22097,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-model-scala"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19227,8 +22107,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-n"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19237,8 +22117,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-rdf"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19247,8 +22127,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-service-core"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19257,8 +22137,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-service-translation"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19267,8 +22147,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-sql"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19277,8 +22157,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-storage-api"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19287,8 +22167,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-storage-filesystem"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19297,8 +22177,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-storage-index-redis"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19307,8 +22187,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-storage-mongodb"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19317,8 +22197,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-template"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19327,8 +22207,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-template-compiler"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19337,8 +22217,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:prov-xml"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19347,8 +22227,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:provconvert"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19357,8 +22237,8 @@
       "matchPackageNames": [
         "org.openprovenance.prov:roundtrip"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
     },
     {
       "extends": [
@@ -19367,8 +22247,38 @@
       "matchPackageNames": [
         "org.openprovenance.prov:service-translator"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.18)",
-      "allowedVersions": "0.9.18"
+      "matchCurrentVersion": "[0.9.10,0.9.21)",
+      "allowedVersions": "0.9.21"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.opensextant:opensextant-xponents"
+      ],
+      "matchCurrentVersion": "[3.5.2,3.5.4)",
+      "allowedVersions": "3.5.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.powernukkit:powernukkit"
+      ],
+      "matchCurrentVersion": "[1.1.1.0-PN,1.5.2.1-PN)",
+      "allowedVersions": "1.5.2.1-PN"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.rcsb:biozernike"
+      ],
+      "matchCurrentVersion": "[1.0.0-alpha1,1.0.0-alpha10)",
+      "allowedVersions": "1.0.0-alpha10"
     },
     {
       "extends": [
@@ -19377,8 +22287,8 @@
       "matchPackageNames": [
         "org.rcsb:strucmotif-search-benchmark"
       ],
-      "matchCurrentVersion": "[0.11.1,0.12.8)",
-      "allowedVersions": "0.12.8"
+      "matchCurrentVersion": "[0.11.1,0.12.9)",
+      "allowedVersions": "0.12.9"
     },
     {
       "extends": [
@@ -19387,8 +22297,8 @@
       "matchPackageNames": [
         "org.rcsb:strucmotif-search-core"
       ],
-      "matchCurrentVersion": "[0.11.1,0.12.8)",
-      "allowedVersions": "0.12.8"
+      "matchCurrentVersion": "[0.11.1,0.12.9)",
+      "allowedVersions": "0.12.9"
     },
     {
       "extends": [
@@ -19397,8 +22307,8 @@
       "matchPackageNames": [
         "org.rcsb:strucmotif-search-update"
       ],
-      "matchCurrentVersion": "[0.11.1,0.12.8)",
-      "allowedVersions": "0.12.8"
+      "matchCurrentVersion": "[0.11.1,0.12.9)",
+      "allowedVersions": "0.12.9"
     },
     {
       "extends": [
@@ -19435,6 +22345,16 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "org.rosaenlg:java-wrapper"
+      ],
+      "matchCurrentVersion": "[1.13.0,3.0.4)",
+      "allowedVersions": "3.0.4"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "org.rrd4j:rrd4j"
       ],
       "matchCurrentVersion": "[3.4,3.8.1)",
@@ -19445,10 +22365,10 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
-        "org.scala-sbt:main_2.12"
+        "org.sbml.jsbml:jsbml-core"
       ],
-      "matchCurrentVersion": "[1.2.4,1.5.8)",
-      "allowedVersions": "1.5.8"
+      "matchCurrentVersion": "[1.5,1.6.1)",
+      "allowedVersions": "1.6.1"
     },
     {
       "extends": [
@@ -19457,8 +22377,8 @@
       "matchPackageNames": [
         "org.scala-sbt:main_2.12"
       ],
-      "matchCurrentVersion": "[1.6.0-M1,1.6.0-RC2)",
-      "allowedVersions": "1.6.0-RC2"
+      "matchCurrentVersion": "[1.2.4,1.6.1)",
+      "allowedVersions": "1.6.1"
     },
     {
       "extends": [
@@ -19467,18 +22387,8 @@
       "matchPackageNames": [
         "org.scala-sbt:util-logging_2.12"
       ],
-      "matchCurrentVersion": "[1.2.3,1.5.8)",
-      "allowedVersions": "1.5.8"
-    },
-    {
-      "extends": [
-        "github>whitesource/log4j-remediations//base"
-      ],
-      "matchPackageNames": [
-        "org.scala-sbt:util-logging_2.12"
-      ],
-      "matchCurrentVersion": "[1.6.0-M1,1.6.0-RC2)",
-      "allowedVersions": "1.6.0-RC2"
+      "matchCurrentVersion": "[1.2.3,1.6.1)",
+      "allowedVersions": "1.6.1"
     },
     {
       "extends": [
@@ -19487,18 +22397,18 @@
       "matchPackageNames": [
         "org.scala-sbt:util-logging_2.13"
       ],
-      "matchCurrentVersion": "[1.3.0,1.5.8)",
-      "allowedVersions": "1.5.8"
+      "matchCurrentVersion": "[1.3.0,1.6.1)",
+      "allowedVersions": "1.6.1"
     },
     {
       "extends": [
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
-        "org.scala-sbt:util-logging_2.13"
+        "org.seppiko.glf:glf-log4j2"
       ],
-      "matchCurrentVersion": "[1.6.0-M1,1.6.0-RC2)",
-      "allowedVersions": "1.6.0-RC2"
+      "matchCurrentVersion": "[1.1.RELEASE,1.4.RELEASE)",
+      "allowedVersions": "1.4.RELEASE"
     },
     {
       "extends": [
@@ -19515,10 +22425,30 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "org.sourcelab:kafka-connect-client"
+      ],
+      "matchCurrentVersion": "[1.1.0,4.0.0)",
+      "allowedVersions": "4.0.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "org.spdx:spdx-tools"
       ],
-      "matchCurrentVersion": "[2.1.13,2.2.7)",
+      "matchCurrentVersion": "[2.1.10,2.2.7)",
       "allowedVersions": "2.2.7"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.spectrumauctions:sats"
+      ],
+      "matchCurrentVersion": "[0.6.1,0.8.1)",
+      "allowedVersions": "0.8.1"
     },
     {
       "extends": [
@@ -19527,7 +22457,17 @@
       "matchPackageNames": [
         "org.springframework.amqp:spring-rabbit"
       ],
-      "matchCurrentVersion": "[1.7.11.RELEASE,2.3.13)",
+      "matchCurrentVersion": "[1.7.11.RELEASE,2.2.21.RELEASE)",
+      "allowedVersions": "2.2.21.RELEASE"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.springframework.amqp:spring-rabbit"
+      ],
+      "matchCurrentVersion": "[2.3.0,2.3.13)",
       "allowedVersions": "2.3.13"
     },
     {
@@ -19547,7 +22487,27 @@
       "matchPackageNames": [
         "org.springframework.amqp:spring-rabbit-junit"
       ],
-      "matchCurrentVersion": "[2.2.0.RELEASE,2.4.1)",
+      "matchCurrentVersion": "[2.2.0.RELEASE,2.2.21.RELEASE)",
+      "allowedVersions": "2.2.21.RELEASE"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.springframework.amqp:spring-rabbit-junit"
+      ],
+      "matchCurrentVersion": "[2.3.10,2.3.13)",
+      "allowedVersions": "2.3.13"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.springframework.amqp:spring-rabbit-junit"
+      ],
+      "matchCurrentVersion": "[2.4.0,2.4.1)",
       "allowedVersions": "2.4.1"
     },
     {
@@ -19597,8 +22557,8 @@
       "matchPackageNames": [
         "org.summerboot:framework.core"
       ],
-      "matchCurrentVersion": "[2.0.11,2.0.20)",
-      "allowedVersions": "2.0.20"
+      "matchCurrentVersion": "[2.0.11,2.0.21)",
+      "allowedVersions": "2.0.21"
     },
     {
       "extends": [
@@ -19787,8 +22747,18 @@
       "matchPackageNames": [
         "org.tokenscript:attestation"
       ],
-      "matchCurrentVersion": "[0.3.8,0.3.9)",
-      "allowedVersions": "0.3.9"
+      "matchCurrentVersion": "[0.3.8,0.3.10)",
+      "allowedVersions": "0.3.10"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.vitrivr:cottontaildb"
+      ],
+      "matchCurrentVersion": "[0.10.1,0.13.1)",
+      "allowedVersions": "0.13.1"
     },
     {
       "extends": [
@@ -19805,10 +22775,40 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "org.wso2.am.choreo.connect:org.wso2.choreo.connect.enforcer"
+      ],
+      "matchCurrentVersion": "[1.0.0-alpha,1.0.0)",
+      "allowedVersions": "1.0.0"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.zalando.stups:tokens"
+      ],
+      "matchCurrentVersion": "[0.14.0,0.14.1)",
+      "allowedVersions": "0.14.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "org.zaproxy:zap"
+      ],
+      "matchCurrentVersion": "[2.11.0,2.11.1)",
+      "allowedVersions": "2.11.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "org.zowe.client.java.sdk:zowe-client-java-sdk"
       ],
-      "matchCurrentVersion": "[1.0.0,1.0.8)",
-      "allowedVersions": "1.0.8"
+      "matchCurrentVersion": "[1.0.0,1.0.10)",
+      "allowedVersions": "1.0.10"
     },
     {
       "extends": [
@@ -19817,8 +22817,8 @@
       "matchPackageNames": [
         "pl.tkowalcz.tjahzi:log4j2-appender"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.19)",
-      "allowedVersions": "0.9.19"
+      "matchCurrentVersion": "[0.9.10,0.9.20)",
+      "allowedVersions": "0.9.20"
     },
     {
       "extends": [
@@ -19827,8 +22827,28 @@
       "matchPackageNames": [
         "pl.tkowalcz.tjahzi:log4j2-appender-nodep"
       ],
-      "matchCurrentVersion": "[0.9.10,0.9.19)",
-      "allowedVersions": "0.9.19"
+      "matchCurrentVersion": "[0.9.10,0.9.20)",
+      "allowedVersions": "0.9.20"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "redis.clients:jedis"
+      ],
+      "matchCurrentVersion": "[2.10.0,3.7.1)",
+      "allowedVersions": "3.7.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "redis.clients:jedis"
+      ],
+      "matchCurrentVersion": "[4.0.0-RC1,4.0.0-rc2)",
+      "allowedVersions": "4.0.0-rc2"
     },
     {
       "extends": [
@@ -19839,6 +22859,26 @@
       ],
       "matchCurrentVersion": "[1.0.0,1.1.2)",
       "allowedVersions": "1.1.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "top.wuyongshi:ZmlTools"
+      ],
+      "matchCurrentVersion": "[0.0.1,1.3.1)",
+      "allowedVersions": "1.3.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "tv.hd3g.commons:codepolicyvalidation"
+      ],
+      "matchCurrentVersion": "[0.3.0,1.0.2)",
+      "allowedVersions": "1.0.2"
     },
     {
       "extends": [
@@ -19875,6 +22915,46 @@
         "github>whitesource/log4j-remediations//base"
       ],
       "matchPackageNames": [
+        "us.ihmc:log-tools"
+      ],
+      "matchCurrentVersion": "[0.5.0,0.6.2)",
+      "allowedVersions": "0.6.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "wang.yeting:druid-sql"
+      ],
+      "matchCurrentVersion": "[1.0.0,1.0.1)",
+      "allowedVersions": "1.0.1"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "xyz.gianlu.librespot:librespot-api"
+      ],
+      "matchCurrentVersion": "[1.4.0,1.6.2)",
+      "allowedVersions": "1.6.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
+        "xyz.gianlu.librespot:librespot-player"
+      ],
+      "matchCurrentVersion": "[1.5.0,1.6.2)",
+      "allowedVersions": "1.6.2"
+    },
+    {
+      "extends": [
+        "github>whitesource/log4j-remediations//base"
+      ],
+      "matchPackageNames": [
         "xyz.rogfam:littleproxy"
       ],
       "matchCurrentVersion": "[2.0.0-beta-1,2.0.7)",
@@ -19887,8 +22967,8 @@
       "matchPackageNames": [
         "za.co.clock24:DsvParser"
       ],
-      "matchCurrentVersion": "[1.0.3,2.0.1)",
-      "allowedVersions": "2.0.1"
+      "matchCurrentVersion": "[1.0.3,2.0.2)",
+      "allowedVersions": "2.0.2"
     }
   ]
 }
